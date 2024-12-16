@@ -1,0 +1,36 @@
+11-24 17:29 INFO     cuda:0
+11-24 17:29 INFO     ####################################################################################################
+11-24 17:29 INFO     Partitioning data
+11-24 17:29 INFO     Data statistics: {0: {0: 953, 1: 142, 2: 141, 3: 75, 4: 695, 5: 819, 7: 2482}, 1: {0: 16, 1: 43, 2: 902, 3: 1650, 4: 86, 5: 182, 7: 693, 8: 110, 9: 6}, 2: {0: 9, 1: 8, 2: 290, 3: 769, 4: 841, 5: 283, 6: 119, 7: 1044, 8: 1014, 9: 58}, 3: {0: 395, 1: 1200, 2: 48, 3: 68, 4: 896, 5: 681, 6: 90, 7: 17, 8: 1351, 9: 301}, 4: {0: 504, 1: 2917, 2: 570, 3: 721, 4: 121, 5: 356}, 5: {0: 1262, 1: 71, 2: 325, 3: 119, 4: 1560, 5: 14, 6: 1, 7: 85, 8: 366}, 6: {0: 9, 1: 273, 2: 1657, 3: 40, 4: 1, 5: 130, 6: 1911, 7: 21, 8: 1160}, 7: {0: 722, 1: 3, 2: 281, 3: 738, 4: 22, 5: 974, 6: 624, 7: 1, 8: 82, 9: 878}, 8: {0: 1127, 1: 153, 2: 680, 3: 500, 4: 698, 5: 1139, 6: 92, 7: 23, 8: 1, 9: 3665}, 9: {0: 3, 1: 190, 2: 106, 3: 320, 4: 80, 5: 422, 6: 2163, 7: 634, 8: 916, 9: 92}}
+11-24 17:29 INFO     >> Attacker Network IDX: 6 9
+11-24 17:29 INFO     Initializing nets
+11-24 17:29 INFO     in comm round:0
+11-24 17:29 INFO     normal net 0 final test acc 0.237300
+11-24 17:29 INFO     normal net 1 final test acc 0.164400
+11-24 17:30 INFO     normal net 2 final test acc 0.267200
+11-24 17:30 INFO     normal net 3 final test acc 0.243600
+11-24 17:30 INFO     normal net 4 final test acc 0.258600
+11-24 17:30 INFO     normal net 5 final test acc 0.231300
+11-24 17:31 INFO     attacker net 6 final test acc 0.187200
+11-24 17:31 INFO     normal net 7 final test acc 0.247600
+11-24 17:31 INFO     normal net 8 final test acc 0.257000
+11-24 17:31 INFO     attacker net 9 final test acc 0.180500
+11-24 17:31 INFO     >> Network Weight: 0.27894843700437544 0.0 0.970583565138908 0.8185174003867858 1.0 0.0 0.0 1.0 0.8515629710718224 0.019057988227454747
+11-24 17:32 INFO     >> Global Model Test accuracy: 0.138000
+11-24 17:32 INFO     >> Global Model Attack Success Rate: 0.000000
+11-24 17:32 INFO     in comm round:1
+11-24 17:32 INFO     normal net 0 final test acc 0.236300
+11-24 17:32 INFO     normal net 1 final test acc 0.226900
+11-24 17:32 INFO     normal net 2 final test acc 0.253500
+11-24 17:32 INFO     normal net 3 final test acc 0.260700
+11-24 17:33 INFO     normal net 4 final test acc 0.230000
+11-24 17:33 INFO     normal net 5 final test acc 0.216700
+11-24 17:33 INFO     attacker net 6 final test acc 0.139100
+11-24 17:33 INFO     normal net 7 final test acc 0.253700
+11-24 17:34 INFO     normal net 8 final test acc 0.291100
+11-24 17:34 INFO     attacker net 9 final test acc 0.152100
+11-24 17:34 INFO     >> Network Weight: 0.0 0.0 1.0 1.0 1.0 1.0 1.0 0.0 0.0 1.0
+11-24 17:34 INFO     >> Global Model Test accuracy: 0.131400
+11-24 17:34 INFO     >> Global Model Attack Success Rate: 0.023000
+11-24 17:34 INFO     in comm round:2
+11-24 17:34 INFO     normal net 0 final test acc 0.246300

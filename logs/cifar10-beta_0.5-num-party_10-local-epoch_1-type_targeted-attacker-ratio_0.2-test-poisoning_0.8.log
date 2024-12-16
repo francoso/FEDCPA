@@ -1,0 +1,1606 @@
+12-06 12:14 INFO     cuda:0
+12-06 12:14 INFO     ####################################################################################################
+12-06 12:14 INFO     Partitioning data
+12-06 12:14 INFO     Data statistics: {0: {0: 953, 1: 142, 2: 141, 3: 75, 4: 695, 5: 819, 7: 2482}, 1: {0: 16, 1: 43, 2: 902, 3: 1650, 4: 86, 5: 182, 7: 693, 8: 110, 9: 6}, 2: {0: 9, 1: 8, 2: 290, 3: 769, 4: 841, 5: 283, 6: 119, 7: 1044, 8: 1014, 9: 58}, 3: {0: 395, 1: 1200, 2: 48, 3: 68, 4: 896, 5: 681, 6: 90, 7: 17, 8: 1351, 9: 301}, 4: {0: 504, 1: 2917, 2: 570, 3: 721, 4: 121, 5: 356}, 5: {0: 1262, 1: 71, 2: 325, 3: 119, 4: 1560, 5: 14, 6: 1, 7: 85, 8: 366}, 6: {0: 9, 1: 273, 2: 1657, 3: 40, 4: 1, 5: 130, 6: 1911, 7: 21, 8: 1160}, 7: {0: 722, 1: 3, 2: 281, 3: 738, 4: 22, 5: 974, 6: 624, 7: 1, 8: 82, 9: 878}, 8: {0: 1127, 1: 153, 2: 680, 3: 500, 4: 698, 5: 1139, 6: 92, 7: 23, 8: 1, 9: 3665}, 9: {0: 3, 1: 190, 2: 106, 3: 320, 4: 80, 5: 422, 6: 2163, 7: 634, 8: 916, 9: 92}}
+12-06 12:14 INFO     >> Attacker Network IDX: 6 9
+12-06 12:14 INFO     Initializing nets
+12-06 12:14 INFO     in comm round:0
+12-06 12:15 INFO     normal net 0 final test acc 0.183800
+12-06 12:15 INFO     normal net 2 final test acc 0.268200
+12-06 12:15 INFO     normal net 4 final test acc 0.212200
+12-06 12:15 INFO     attacker net 6 final test acc 0.181200
+12-06 12:16 INFO     attacker net 9 final test acc 0.160800
+12-06 12:16 INFO     >> Global Model 0 Test accuracy: 0.100000
+12-06 12:16 INFO     >> Global Model 0 Attack Success Rate: 0.000000
+12-06 12:16 INFO     >> Global Model 2 Test accuracy: 0.126300
+12-06 12:16 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:16 INFO     >> Global Model 4 Test accuracy: 0.111400
+12-06 12:16 INFO     >> Global Model 4 Attack Success Rate: 0.074500
+12-06 12:16 INFO     >> Global Model 6 Test accuracy: 0.117000
+12-06 12:16 INFO     >> Global Model 6 Attack Success Rate: 0.266000
+12-06 12:16 INFO     >> Global Model 9 Test accuracy: 0.115400
+12-06 12:16 INFO     >> Global Model 9 Attack Success Rate: 0.210000
+12-06 12:16 INFO     in comm round:1
+12-06 12:16 INFO     normal net 2 final test acc 0.278100
+12-06 12:17 INFO     normal net 3 final test acc 0.221200
+12-06 12:17 INFO     normal net 4 final test acc 0.248800
+12-06 12:17 INFO     attacker net 6 final test acc 0.177900
+12-06 12:17 INFO     normal net 7 final test acc 0.244700
+12-06 12:18 INFO     >> Global Model 2 Test accuracy: 0.195600
+12-06 12:18 INFO     >> Global Model 2 Attack Success Rate: 0.033900
+12-06 12:18 INFO     >> Global Model 3 Test accuracy: 0.110600
+12-06 12:18 INFO     >> Global Model 3 Attack Success Rate: 0.000000
+12-06 12:18 INFO     >> Global Model 4 Test accuracy: 0.101900
+12-06 12:18 INFO     >> Global Model 4 Attack Success Rate: 0.001600
+12-06 12:18 INFO     >> Global Model 6 Test accuracy: 0.121000
+12-06 12:18 INFO     >> Global Model 6 Attack Success Rate: 0.052800
+12-06 12:18 INFO     >> Global Model 7 Test accuracy: 0.122400
+12-06 12:18 INFO     >> Global Model 7 Attack Success Rate: 0.000000
+12-06 12:18 INFO     in comm round:2
+12-06 12:18 INFO     normal net 1 final test acc 0.147100
+12-06 12:18 INFO     normal net 2 final test acc 0.286300
+12-06 12:19 INFO     normal net 3 final test acc 0.286700
+12-06 12:19 INFO     normal net 7 final test acc 0.302400
+12-06 12:19 INFO     attacker net 9 final test acc 0.213500
+12-06 12:19 INFO     >> Global Model 1 Test accuracy: 0.155300
+12-06 12:19 INFO     >> Global Model 1 Attack Success Rate: 0.000000
+12-06 12:19 INFO     >> Global Model 2 Test accuracy: 0.170300
+12-06 12:19 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:19 INFO     >> Global Model 3 Test accuracy: 0.172600
+12-06 12:19 INFO     >> Global Model 3 Attack Success Rate: 0.000000
+12-06 12:20 INFO     >> Global Model 7 Test accuracy: 0.168100
+12-06 12:20 INFO     >> Global Model 7 Attack Success Rate: 0.000000
+12-06 12:20 INFO     >> Global Model 9 Test accuracy: 0.122000
+12-06 12:20 INFO     >> Global Model 9 Attack Success Rate: 0.005300
+12-06 12:20 INFO     in comm round:3
+12-06 12:20 INFO     normal net 0 final test acc 0.250300
+12-06 12:20 INFO     normal net 1 final test acc 0.253800
+12-06 12:20 INFO     normal net 2 final test acc 0.283200
+12-06 12:21 INFO     normal net 4 final test acc 0.251000
+12-06 12:21 INFO     normal net 7 final test acc 0.260900
+12-06 12:21 INFO     >> Global Model 0 Test accuracy: 0.242300
+12-06 12:21 INFO     >> Global Model 0 Attack Success Rate: 0.084300
+12-06 12:21 INFO     >> Global Model 1 Test accuracy: 0.202100
+12-06 12:21 INFO     >> Global Model 1 Attack Success Rate: 0.000000
+12-06 12:21 INFO     >> Global Model 2 Test accuracy: 0.150400
+12-06 12:21 INFO     >> Global Model 2 Attack Success Rate: 0.012200
+12-06 12:21 INFO     >> Global Model 4 Test accuracy: 0.189100
+12-06 12:21 INFO     >> Global Model 4 Attack Success Rate: 0.004000
+12-06 12:21 INFO     >> Global Model 7 Test accuracy: 0.168700
+12-06 12:21 INFO     >> Global Model 7 Attack Success Rate: 0.010700
+12-06 12:21 INFO     in comm round:4
+12-06 12:22 INFO     normal net 0 final test acc 0.289100
+12-06 12:22 INFO     normal net 1 final test acc 0.245600
+12-06 12:22 INFO     normal net 4 final test acc 0.273100
+12-06 12:22 INFO     normal net 5 final test acc 0.197400
+12-06 12:22 INFO     normal net 7 final test acc 0.274000
+12-06 12:23 INFO     >> Global Model 0 Test accuracy: 0.222400
+12-06 12:23 INFO     >> Global Model 0 Attack Success Rate: 0.020500
+12-06 12:23 INFO     >> Global Model 1 Test accuracy: 0.224700
+12-06 12:23 INFO     >> Global Model 1 Attack Success Rate: 0.019800
+12-06 12:23 INFO     >> Global Model 4 Test accuracy: 0.226500
+12-06 12:23 INFO     >> Global Model 4 Attack Success Rate: 0.022400
+12-06 12:23 INFO     >> Global Model 5 Test accuracy: 0.195700
+12-06 12:23 INFO     >> Global Model 5 Attack Success Rate: 0.000000
+12-06 12:23 INFO     >> Global Model 7 Test accuracy: 0.226900
+12-06 12:23 INFO     >> Global Model 7 Attack Success Rate: 0.021800
+12-06 12:23 INFO     in comm round:5
+12-06 12:23 INFO     normal net 4 final test acc 0.249500
+12-06 12:23 INFO     normal net 5 final test acc 0.206700
+12-06 12:24 INFO     attacker net 6 final test acc 0.209300
+12-06 12:24 INFO     normal net 7 final test acc 0.252600
+12-06 12:24 INFO     attacker net 9 final test acc 0.201200
+12-06 12:24 INFO     >> Global Model 4 Test accuracy: 0.163600
+12-06 12:24 INFO     >> Global Model 4 Attack Success Rate: 0.023900
+12-06 12:24 INFO     >> Global Model 5 Test accuracy: 0.190700
+12-06 12:24 INFO     >> Global Model 5 Attack Success Rate: 0.000000
+12-06 12:24 INFO     >> Global Model 6 Test accuracy: 0.127100
+12-06 12:25 INFO     >> Global Model 6 Attack Success Rate: 0.105600
+12-06 12:25 INFO     >> Global Model 7 Test accuracy: 0.275700
+12-06 12:25 INFO     >> Global Model 7 Attack Success Rate: 0.130500
+12-06 12:25 INFO     >> Global Model 9 Test accuracy: 0.129600
+12-06 12:25 INFO     >> Global Model 9 Attack Success Rate: 0.116400
+12-06 12:25 INFO     in comm round:6
+12-06 12:25 INFO     normal net 3 final test acc 0.276000
+12-06 12:25 INFO     normal net 4 final test acc 0.280700
+12-06 12:25 INFO     normal net 7 final test acc 0.335100
+12-06 12:26 INFO     normal net 8 final test acc 0.236700
+12-06 12:26 INFO     attacker net 9 final test acc 0.229500
+12-06 12:26 INFO     >> Global Model 3 Test accuracy: 0.305400
+12-06 12:26 INFO     >> Global Model 3 Attack Success Rate: 0.132300
+12-06 12:26 INFO     >> Global Model 4 Test accuracy: 0.345600
+12-06 12:26 INFO     >> Global Model 4 Attack Success Rate: 0.182400
+12-06 12:26 INFO     >> Global Model 7 Test accuracy: 0.303400
+12-06 12:26 INFO     >> Global Model 7 Attack Success Rate: 0.124800
+12-06 12:26 INFO     >> Global Model 8 Test accuracy: 0.230200
+12-06 12:27 INFO     >> Global Model 8 Attack Success Rate: 0.000000
+12-06 12:27 INFO     >> Global Model 9 Test accuracy: 0.264900
+12-06 12:27 INFO     >> Global Model 9 Attack Success Rate: 0.467100
+12-06 12:27 INFO     in comm round:7
+12-06 12:27 INFO     normal net 0 final test acc 0.297000
+12-06 12:27 INFO     normal net 4 final test acc 0.310600
+12-06 12:27 INFO     normal net 5 final test acc 0.185600
+12-06 12:27 INFO     normal net 7 final test acc 0.353100
+12-06 12:28 INFO     normal net 8 final test acc 0.310200
+12-06 12:28 INFO     >> Global Model 0 Test accuracy: 0.238700
+12-06 12:28 INFO     >> Global Model 0 Attack Success Rate: 0.030100
+12-06 12:28 INFO     >> Global Model 4 Test accuracy: 0.217600
+12-06 12:28 INFO     >> Global Model 4 Attack Success Rate: 0.000400
+12-06 12:28 INFO     >> Global Model 5 Test accuracy: 0.175500
+12-06 12:28 INFO     >> Global Model 5 Attack Success Rate: 0.000000
+12-06 12:28 INFO     >> Global Model 7 Test accuracy: 0.217200
+12-06 12:28 INFO     >> Global Model 7 Attack Success Rate: 0.000400
+12-06 12:28 INFO     >> Global Model 8 Test accuracy: 0.203600
+12-06 12:28 INFO     >> Global Model 8 Attack Success Rate: 0.000300
+12-06 12:28 INFO     in comm round:8
+12-06 12:29 INFO     normal net 0 final test acc 0.329100
+12-06 12:29 INFO     normal net 2 final test acc 0.289400
+12-06 12:29 INFO     attacker net 6 final test acc 0.202600
+12-06 12:29 INFO     normal net 7 final test acc 0.337300
+12-06 12:30 INFO     attacker net 9 final test acc 0.279900
+12-06 12:30 INFO     >> Global Model 0 Test accuracy: 0.311200
+12-06 12:30 INFO     >> Global Model 0 Attack Success Rate: 0.037500
+12-06 12:30 INFO     >> Global Model 2 Test accuracy: 0.288600
+12-06 12:30 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:30 INFO     >> Global Model 6 Test accuracy: 0.199100
+12-06 12:30 INFO     >> Global Model 6 Attack Success Rate: 0.910800
+12-06 12:30 INFO     >> Global Model 7 Test accuracy: 0.340100
+12-06 12:30 INFO     >> Global Model 7 Attack Success Rate: 0.000000
+12-06 12:30 INFO     >> Global Model 9 Test accuracy: 0.198400
+12-06 12:30 INFO     >> Global Model 9 Attack Success Rate: 0.916600
+12-06 12:30 INFO     in comm round:9
+12-06 12:30 INFO     normal net 1 final test acc 0.186600
+12-06 12:31 INFO     normal net 3 final test acc 0.324400
+12-06 12:31 INFO     normal net 4 final test acc 0.307700
+12-06 12:31 INFO     normal net 5 final test acc 0.190800
+12-06 12:31 INFO     normal net 7 final test acc 0.332100
+12-06 12:31 INFO     >> Global Model 1 Test accuracy: 0.293600
+12-06 12:31 INFO     >> Global Model 1 Attack Success Rate: 0.073900
+12-06 12:31 INFO     >> Global Model 3 Test accuracy: 0.294200
+12-06 12:31 INFO     >> Global Model 3 Attack Success Rate: 0.076700
+12-06 12:32 INFO     >> Global Model 4 Test accuracy: 0.293600
+12-06 12:32 INFO     >> Global Model 4 Attack Success Rate: 0.075000
+12-06 12:32 INFO     >> Global Model 5 Test accuracy: 0.177600
+12-06 12:32 INFO     >> Global Model 5 Attack Success Rate: 0.003400
+12-06 12:32 INFO     >> Global Model 7 Test accuracy: 0.293900
+12-06 12:32 INFO     >> Global Model 7 Attack Success Rate: 0.075400
+12-06 12:32 INFO     in comm round:10
+12-06 12:32 INFO     normal net 2 final test acc 0.284500
+12-06 12:32 INFO     normal net 3 final test acc 0.345700
+12-06 12:32 INFO     normal net 4 final test acc 0.284800
+12-06 12:33 INFO     attacker net 6 final test acc 0.232300
+12-06 12:33 INFO     attacker net 9 final test acc 0.228800
+12-06 12:33 INFO     >> Global Model 2 Test accuracy: 0.296900
+12-06 12:33 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:33 INFO     >> Global Model 3 Test accuracy: 0.328400
+12-06 12:33 INFO     >> Global Model 3 Attack Success Rate: 0.274000
+12-06 12:33 INFO     >> Global Model 4 Test accuracy: 0.330000
+12-06 12:33 INFO     >> Global Model 4 Attack Success Rate: 0.276900
+12-06 12:33 INFO     >> Global Model 6 Test accuracy: 0.221700
+12-06 12:33 INFO     >> Global Model 6 Attack Success Rate: 0.967700
+12-06 12:33 INFO     >> Global Model 9 Test accuracy: 0.222500
+12-06 12:34 INFO     >> Global Model 9 Attack Success Rate: 0.973500
+12-06 12:34 INFO     in comm round:11
+12-06 12:34 INFO     normal net 1 final test acc 0.298500
+12-06 12:34 INFO     normal net 2 final test acc 0.332400
+12-06 12:34 INFO     normal net 4 final test acc 0.324500
+12-06 12:34 INFO     normal net 7 final test acc 0.346700
+12-06 12:35 INFO     normal net 8 final test acc 0.337700
+12-06 12:35 INFO     >> Global Model 1 Test accuracy: 0.282600
+12-06 12:35 INFO     >> Global Model 1 Attack Success Rate: 0.036300
+12-06 12:35 INFO     >> Global Model 2 Test accuracy: 0.327400
+12-06 12:35 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:35 INFO     >> Global Model 4 Test accuracy: 0.326000
+12-06 12:35 INFO     >> Global Model 4 Attack Success Rate: 0.056300
+12-06 12:35 INFO     >> Global Model 7 Test accuracy: 0.326500
+12-06 12:35 INFO     >> Global Model 7 Attack Success Rate: 0.054300
+12-06 12:35 INFO     >> Global Model 8 Test accuracy: 0.329600
+12-06 12:35 INFO     >> Global Model 8 Attack Success Rate: 0.060400
+12-06 12:35 INFO     in comm round:12
+12-06 12:35 INFO     normal net 1 final test acc 0.305600
+12-06 12:36 INFO     normal net 2 final test acc 0.325800
+12-06 12:36 INFO     normal net 4 final test acc 0.329200
+12-06 12:36 INFO     normal net 7 final test acc 0.376100
+12-06 12:36 INFO     attacker net 9 final test acc 0.289500
+12-06 12:37 INFO     >> Global Model 1 Test accuracy: 0.287700
+12-06 12:37 INFO     >> Global Model 1 Attack Success Rate: 0.104900
+12-06 12:37 INFO     >> Global Model 2 Test accuracy: 0.299100
+12-06 12:37 INFO     >> Global Model 2 Attack Success Rate: 0.096700
+12-06 12:37 INFO     >> Global Model 4 Test accuracy: 0.323100
+12-06 12:37 INFO     >> Global Model 4 Attack Success Rate: 0.108200
+12-06 12:37 INFO     >> Global Model 7 Test accuracy: 0.289700
+12-06 12:37 INFO     >> Global Model 7 Attack Success Rate: 0.100800
+12-06 12:37 INFO     >> Global Model 9 Test accuracy: 0.292500
+12-06 12:37 INFO     >> Global Model 9 Attack Success Rate: 0.214700
+12-06 12:37 INFO     in comm round:13
+12-06 12:37 INFO     normal net 1 final test acc 0.317700
+12-06 12:37 INFO     normal net 4 final test acc 0.290000
+12-06 12:38 INFO     normal net 5 final test acc 0.216500
+12-06 12:38 INFO     attacker net 6 final test acc 0.236000
+12-06 12:38 INFO     normal net 8 final test acc 0.371000
+12-06 12:38 INFO     >> Global Model 1 Test accuracy: 0.307200
+12-06 12:38 INFO     >> Global Model 1 Attack Success Rate: 0.122600
+12-06 12:38 INFO     >> Global Model 4 Test accuracy: 0.245400
+12-06 12:38 INFO     >> Global Model 4 Attack Success Rate: 0.124000
+12-06 12:39 INFO     >> Global Model 5 Test accuracy: 0.202000
+12-06 12:39 INFO     >> Global Model 5 Attack Success Rate: 0.028500
+12-06 12:39 INFO     >> Global Model 6 Test accuracy: 0.254500
+12-06 12:39 INFO     >> Global Model 6 Attack Success Rate: 0.125400
+12-06 12:39 INFO     >> Global Model 8 Test accuracy: 0.244500
+12-06 12:39 INFO     >> Global Model 8 Attack Success Rate: 0.121900
+12-06 12:39 INFO     in comm round:14
+12-06 12:39 INFO     normal net 0 final test acc 0.306100
+12-06 12:39 INFO     normal net 3 final test acc 0.411700
+12-06 12:39 INFO     normal net 4 final test acc 0.316100
+12-06 12:40 INFO     normal net 8 final test acc 0.377200
+12-06 12:40 INFO     attacker net 9 final test acc 0.269600
+12-06 12:40 INFO     >> Global Model 0 Test accuracy: 0.298700
+12-06 12:40 INFO     >> Global Model 0 Attack Success Rate: 0.018200
+12-06 12:40 INFO     >> Global Model 3 Test accuracy: 0.374000
+12-06 12:40 INFO     >> Global Model 3 Attack Success Rate: 0.202600
+12-06 12:40 INFO     >> Global Model 4 Test accuracy: 0.371400
+12-06 12:40 INFO     >> Global Model 4 Attack Success Rate: 0.189800
+12-06 12:40 INFO     >> Global Model 8 Test accuracy: 0.374700
+12-06 12:41 INFO     >> Global Model 8 Attack Success Rate: 0.203300
+12-06 12:41 INFO     >> Global Model 9 Test accuracy: 0.320200
+12-06 12:41 INFO     >> Global Model 9 Attack Success Rate: 0.382100
+12-06 12:41 INFO     in comm round:15
+12-06 12:41 INFO     normal net 1 final test acc 0.284500
+12-06 12:41 INFO     normal net 4 final test acc 0.323200
+12-06 12:41 INFO     normal net 5 final test acc 0.227000
+12-06 12:41 INFO     attacker net 6 final test acc 0.260400
+12-06 12:42 INFO     attacker net 9 final test acc 0.304300
+12-06 12:42 INFO     >> Global Model 1 Test accuracy: 0.259400
+12-06 12:42 INFO     >> Global Model 1 Attack Success Rate: 0.028000
+12-06 12:42 INFO     >> Global Model 4 Test accuracy: 0.339500
+12-06 12:42 INFO     >> Global Model 4 Attack Success Rate: 0.232300
+12-06 12:42 INFO     >> Global Model 5 Test accuracy: 0.201300
+12-06 12:42 INFO     >> Global Model 5 Attack Success Rate: 0.013100
+12-06 12:42 INFO     >> Global Model 6 Test accuracy: 0.336600
+12-06 12:42 INFO     >> Global Model 6 Attack Success Rate: 0.306000
+12-06 12:42 INFO     >> Global Model 9 Test accuracy: 0.340600
+12-06 12:42 INFO     >> Global Model 9 Attack Success Rate: 0.294300
+12-06 12:42 INFO     in comm round:16
+12-06 12:43 INFO     normal net 1 final test acc 0.359100
+12-06 12:43 INFO     normal net 2 final test acc 0.305300
+12-06 12:43 INFO     normal net 3 final test acc 0.388700
+12-06 12:43 INFO     normal net 4 final test acc 0.332600
+12-06 12:43 INFO     attacker net 6 final test acc 0.277200
+12-06 12:44 INFO     >> Global Model 1 Test accuracy: 0.322100
+12-06 12:44 INFO     >> Global Model 1 Attack Success Rate: 0.174700
+12-06 12:44 INFO     >> Global Model 2 Test accuracy: 0.304800
+12-06 12:44 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:44 INFO     >> Global Model 3 Test accuracy: 0.376900
+12-06 12:44 INFO     >> Global Model 3 Attack Success Rate: 0.189700
+12-06 12:44 INFO     >> Global Model 4 Test accuracy: 0.396800
+12-06 12:44 INFO     >> Global Model 4 Attack Success Rate: 0.193700
+12-06 12:44 INFO     >> Global Model 6 Test accuracy: 0.290400
+12-06 12:44 INFO     >> Global Model 6 Attack Success Rate: 0.279200
+12-06 12:44 INFO     in comm round:17
+12-06 12:44 INFO     normal net 0 final test acc 0.368500
+12-06 12:45 INFO     normal net 4 final test acc 0.377800
+12-06 12:45 INFO     attacker net 6 final test acc 0.261400
+12-06 12:45 INFO     normal net 7 final test acc 0.346500
+12-06 12:45 INFO     attacker net 9 final test acc 0.326900
+12-06 12:45 INFO     >> Global Model 0 Test accuracy: 0.357200
+12-06 12:45 INFO     >> Global Model 0 Attack Success Rate: 0.095500
+12-06 12:45 INFO     >> Global Model 4 Test accuracy: 0.353000
+12-06 12:45 INFO     >> Global Model 4 Attack Success Rate: 0.146200
+12-06 12:46 INFO     >> Global Model 6 Test accuracy: 0.368300
+12-06 12:46 INFO     >> Global Model 6 Attack Success Rate: 0.555400
+12-06 12:46 INFO     >> Global Model 7 Test accuracy: 0.302500
+12-06 12:46 INFO     >> Global Model 7 Attack Success Rate: 0.047900
+12-06 12:46 INFO     >> Global Model 9 Test accuracy: 0.294200
+12-06 12:46 INFO     >> Global Model 9 Attack Success Rate: 0.995100
+12-06 12:46 INFO     in comm round:18
+12-06 12:46 INFO     normal net 0 final test acc 0.338700
+12-06 12:46 INFO     normal net 2 final test acc 0.330800
+12-06 12:46 INFO     attacker net 6 final test acc 0.327300
+12-06 12:47 INFO     normal net 7 final test acc 0.363800
+12-06 12:47 INFO     attacker net 9 final test acc 0.318500
+12-06 12:47 INFO     >> Global Model 0 Test accuracy: 0.333300
+12-06 12:47 INFO     >> Global Model 0 Attack Success Rate: 0.031900
+12-06 12:47 INFO     >> Global Model 2 Test accuracy: 0.331500
+12-06 12:47 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:47 INFO     >> Global Model 6 Test accuracy: 0.334700
+12-06 12:47 INFO     >> Global Model 6 Attack Success Rate: 0.993800
+12-06 12:47 INFO     >> Global Model 7 Test accuracy: 0.361600
+12-06 12:47 INFO     >> Global Model 7 Attack Success Rate: 0.000000
+12-06 12:47 INFO     >> Global Model 9 Test accuracy: 0.336900
+12-06 12:48 INFO     >> Global Model 9 Attack Success Rate: 0.983400
+12-06 12:48 INFO     in comm round:19
+12-06 12:48 INFO     normal net 1 final test acc 0.266600
+12-06 12:48 INFO     normal net 4 final test acc 0.326600
+12-06 12:48 INFO     attacker net 6 final test acc 0.313400
+12-06 12:48 INFO     normal net 7 final test acc 0.430000
+12-06 12:49 INFO     normal net 8 final test acc 0.370800
+12-06 12:49 INFO     >> Global Model 1 Test accuracy: 0.272400
+12-06 12:49 INFO     >> Global Model 1 Attack Success Rate: 0.051400
+12-06 12:49 INFO     >> Global Model 4 Test accuracy: 0.383900
+12-06 12:49 INFO     >> Global Model 4 Attack Success Rate: 0.178500
+12-06 12:49 INFO     >> Global Model 6 Test accuracy: 0.296600
+12-06 12:49 INFO     >> Global Model 6 Attack Success Rate: 0.315400
+12-06 12:49 INFO     >> Global Model 7 Test accuracy: 0.354200
+12-06 12:49 INFO     >> Global Model 7 Attack Success Rate: 0.147700
+12-06 12:49 INFO     >> Global Model 8 Test accuracy: 0.371000
+12-06 12:49 INFO     >> Global Model 8 Attack Success Rate: 0.164800
+12-06 12:49 INFO     in comm round:20
+12-06 12:50 INFO     normal net 3 final test acc 0.423700
+12-06 12:50 INFO     normal net 4 final test acc 0.372500
+12-06 12:50 INFO     attacker net 6 final test acc 0.301900
+12-06 12:50 INFO     normal net 8 final test acc 0.454200
+12-06 12:51 INFO     attacker net 9 final test acc 0.369300
+12-06 12:51 INFO     >> Global Model 3 Test accuracy: 0.421300
+12-06 12:51 INFO     >> Global Model 3 Attack Success Rate: 0.076900
+12-06 12:51 INFO     >> Global Model 4 Test accuracy: 0.357200
+12-06 12:51 INFO     >> Global Model 4 Attack Success Rate: 0.195900
+12-06 12:51 INFO     >> Global Model 6 Test accuracy: 0.398700
+12-06 12:51 INFO     >> Global Model 6 Attack Success Rate: 0.461900
+12-06 12:51 INFO     >> Global Model 8 Test accuracy: 0.412000
+12-06 12:51 INFO     >> Global Model 8 Attack Success Rate: 0.223200
+12-06 12:51 INFO     >> Global Model 9 Test accuracy: 0.367100
+12-06 12:51 INFO     >> Global Model 9 Attack Success Rate: 0.978100
+12-06 12:51 INFO     in comm round:21
+12-06 12:51 INFO     normal net 0 final test acc 0.356100
+12-06 12:52 INFO     normal net 1 final test acc 0.328300
+12-06 12:52 INFO     normal net 4 final test acc 0.377000
+12-06 12:52 INFO     normal net 5 final test acc 0.263500
+12-06 12:52 INFO     attacker net 9 final test acc 0.363800
+12-06 12:52 INFO     >> Global Model 0 Test accuracy: 0.412200
+12-06 12:52 INFO     >> Global Model 0 Attack Success Rate: 0.123900
+12-06 12:53 INFO     >> Global Model 1 Test accuracy: 0.410800
+12-06 12:53 INFO     >> Global Model 1 Attack Success Rate: 0.151300
+12-06 12:53 INFO     >> Global Model 4 Test accuracy: 0.411600
+12-06 12:53 INFO     >> Global Model 4 Attack Success Rate: 0.152400
+12-06 12:53 INFO     >> Global Model 5 Test accuracy: 0.253300
+12-06 12:53 INFO     >> Global Model 5 Attack Success Rate: 0.026800
+12-06 12:53 INFO     >> Global Model 9 Test accuracy: 0.396600
+12-06 12:53 INFO     >> Global Model 9 Attack Success Rate: 0.196900
+12-06 12:53 INFO     in comm round:22
+12-06 12:53 INFO     normal net 0 final test acc 0.350900
+12-06 12:53 INFO     normal net 1 final test acc 0.374700
+12-06 12:54 INFO     normal net 3 final test acc 0.469100
+12-06 12:54 INFO     normal net 5 final test acc 0.267200
+12-06 12:54 INFO     normal net 7 final test acc 0.431400
+12-06 12:54 INFO     >> Global Model 0 Test accuracy: 0.508000
+12-06 12:54 INFO     >> Global Model 0 Attack Success Rate: 0.064500
+12-06 12:54 INFO     >> Global Model 1 Test accuracy: 0.511100
+12-06 12:54 INFO     >> Global Model 1 Attack Success Rate: 0.070100
+12-06 12:54 INFO     >> Global Model 3 Test accuracy: 0.509600
+12-06 12:54 INFO     >> Global Model 3 Attack Success Rate: 0.065000
+12-06 12:54 INFO     >> Global Model 5 Test accuracy: 0.230200
+12-06 12:54 INFO     >> Global Model 5 Attack Success Rate: 0.023700
+12-06 12:54 INFO     >> Global Model 7 Test accuracy: 0.509200
+12-06 12:55 INFO     >> Global Model 7 Attack Success Rate: 0.062900
+12-06 12:55 INFO     in comm round:23
+12-06 12:55 INFO     normal net 1 final test acc 0.426400
+12-06 12:55 INFO     normal net 2 final test acc 0.383800
+12-06 12:55 INFO     normal net 3 final test acc 0.432300
+12-06 12:55 INFO     normal net 4 final test acc 0.353900
+12-06 12:56 INFO     normal net 8 final test acc 0.419700
+12-06 12:56 INFO     >> Global Model 1 Test accuracy: 0.371000
+12-06 12:56 INFO     >> Global Model 1 Attack Success Rate: 0.194600
+12-06 12:56 INFO     >> Global Model 2 Test accuracy: 0.380100
+12-06 12:56 INFO     >> Global Model 2 Attack Success Rate: 0.000000
+12-06 12:56 INFO     >> Global Model 3 Test accuracy: 0.396200
+12-06 12:56 INFO     >> Global Model 3 Attack Success Rate: 0.270300
+12-06 12:56 INFO     >> Global Model 4 Test accuracy: 0.427900
+12-06 12:56 INFO     >> Global Model 4 Attack Success Rate: 0.194100
+12-06 12:56 INFO     >> Global Model 8 Test accuracy: 0.381600
+12-06 12:56 INFO     >> Global Model 8 Attack Success Rate: 0.175900
+12-06 12:56 INFO     in comm round:24
+12-06 12:57 INFO     normal net 0 final test acc 0.374000
+12-06 12:57 INFO     normal net 1 final test acc 0.331200
+12-06 12:57 INFO     normal net 5 final test acc 0.308600
+12-06 12:57 INFO     attacker net 6 final test acc 0.316100
+12-06 12:57 INFO     normal net 7 final test acc 0.390000
+12-06 12:58 INFO     >> Global Model 0 Test accuracy: 0.414900
+12-06 12:58 INFO     >> Global Model 0 Attack Success Rate: 0.120500
+12-06 12:58 INFO     >> Global Model 1 Test accuracy: 0.443600
+12-06 12:58 INFO     >> Global Model 1 Attack Success Rate: 0.153100
+12-06 12:58 INFO     >> Global Model 5 Test accuracy: 0.284400
+12-06 12:58 INFO     >> Global Model 5 Attack Success Rate: 0.066500
+12-06 12:58 INFO     >> Global Model 6 Test accuracy: 0.408000
+12-06 12:58 INFO     >> Global Model 6 Attack Success Rate: 0.124200
+12-06 12:58 INFO     >> Global Model 7 Test accuracy: 0.445100
+12-06 12:58 INFO     >> Global Model 7 Attack Success Rate: 0.155100
+12-06 12:58 INFO     in comm round:25
+12-06 12:58 INFO     normal net 0 final test acc 0.376700
+12-06 12:58 INFO     normal net 1 final test acc 0.283900
+12-06 12:59 INFO     normal net 3 final test acc 0.334700
+12-06 12:59 INFO     attacker net 6 final test acc 0.275400
+12-06 12:59 INFO     normal net 8 final test acc 0.455000
+12-06 12:59 INFO     >> Global Model 0 Test accuracy: 0.485800
+12-06 12:59 INFO     >> Global Model 0 Attack Success Rate: 0.152100
+12-06 12:59 INFO     >> Global Model 1 Test accuracy: 0.489000
+12-06 13:00 INFO     >> Global Model 1 Attack Success Rate: 0.145900
+12-06 13:00 INFO     >> Global Model 3 Test accuracy: 0.489500
+12-06 13:00 INFO     >> Global Model 3 Attack Success Rate: 0.150000
+12-06 13:00 INFO     >> Global Model 6 Test accuracy: 0.282500
+12-06 13:00 INFO     >> Global Model 6 Attack Success Rate: 0.997600
+12-06 13:00 INFO     >> Global Model 8 Test accuracy: 0.488700
+12-06 13:00 INFO     >> Global Model 8 Attack Success Rate: 0.147300
+12-06 13:00 INFO     in comm round:26
+12-06 13:00 INFO     normal net 0 final test acc 0.399900
+12-06 13:00 INFO     normal net 1 final test acc 0.357100
+12-06 13:00 INFO     normal net 2 final test acc 0.385100
+12-06 13:01 INFO     normal net 3 final test acc 0.499600
+12-06 13:01 INFO     attacker net 6 final test acc 0.319300
+12-06 13:01 INFO     >> Global Model 0 Test accuracy: 0.534000
+12-06 13:01 INFO     >> Global Model 0 Attack Success Rate: 0.126300
+12-06 13:01 INFO     >> Global Model 1 Test accuracy: 0.537800
+12-06 13:01 INFO     >> Global Model 1 Attack Success Rate: 0.123200
+12-06 13:01 INFO     >> Global Model 2 Test accuracy: 0.383000
+12-06 13:01 INFO     >> Global Model 2 Attack Success Rate: 0.002300
+12-06 13:01 INFO     >> Global Model 3 Test accuracy: 0.540700
+12-06 13:01 INFO     >> Global Model 3 Attack Success Rate: 0.124200
+12-06 13:01 INFO     >> Global Model 6 Test accuracy: 0.327600
+12-06 13:02 INFO     >> Global Model 6 Attack Success Rate: 0.989200
+12-06 13:02 INFO     in comm round:27
+12-06 13:02 INFO     normal net 0 final test acc 0.403600
+12-06 13:02 INFO     normal net 1 final test acc 0.350600
+12-06 13:02 INFO     attacker net 6 final test acc 0.328100
+12-06 13:03 INFO     normal net 8 final test acc 0.435000
+12-06 13:03 INFO     attacker net 9 final test acc 0.393200
+12-06 13:03 INFO     >> Global Model 0 Test accuracy: 0.478900
+12-06 13:03 INFO     >> Global Model 0 Attack Success Rate: 0.159000
+12-06 13:03 INFO     >> Global Model 1 Test accuracy: 0.481300
+12-06 13:03 INFO     >> Global Model 1 Attack Success Rate: 0.154100
+12-06 13:03 INFO     >> Global Model 6 Test accuracy: 0.389000
+12-06 13:03 INFO     >> Global Model 6 Attack Success Rate: 0.991500
+12-06 13:03 INFO     >> Global Model 8 Test accuracy: 0.481800
+12-06 13:03 INFO     >> Global Model 8 Attack Success Rate: 0.155100
+12-06 13:03 INFO     >> Global Model 9 Test accuracy: 0.391300
+12-06 13:03 INFO     >> Global Model 9 Attack Success Rate: 0.997200
+12-06 13:03 INFO     in comm round:28
+12-06 13:04 INFO     normal net 0 final test acc 0.412100
+12-06 13:04 INFO     normal net 1 final test acc 0.390500
+12-06 13:04 INFO     normal net 3 final test acc 0.483300
+12-06 13:04 INFO     normal net 5 final test acc 0.285300
+12-06 13:04 INFO     normal net 7 final test acc 0.438000
+12-06 13:05 INFO     >> Global Model 0 Test accuracy: 0.573700
+12-06 13:05 INFO     >> Global Model 0 Attack Success Rate: 0.107000
+12-06 13:05 INFO     >> Global Model 1 Test accuracy: 0.572700
+12-06 13:05 INFO     >> Global Model 1 Attack Success Rate: 0.105600
+12-06 13:05 INFO     >> Global Model 3 Test accuracy: 0.574300
+12-06 13:05 INFO     >> Global Model 3 Attack Success Rate: 0.105000
+12-06 13:05 INFO     >> Global Model 5 Test accuracy: 0.266300
+12-06 13:05 INFO     >> Global Model 5 Attack Success Rate: 0.020600
+12-06 13:05 INFO     >> Global Model 7 Test accuracy: 0.575800
+12-06 13:05 INFO     >> Global Model 7 Attack Success Rate: 0.100300
+12-06 13:05 INFO     in comm round:29
+12-06 13:05 INFO     normal net 0 final test acc 0.396600
+12-06 13:05 INFO     normal net 4 final test acc 0.391100
+12-06 13:06 INFO     attacker net 6 final test acc 0.329400
+12-06 13:06 INFO     normal net 8 final test acc 0.444600
+12-06 13:06 INFO     attacker net 9 final test acc 0.383500
+12-06 13:06 INFO     >> Global Model 0 Test accuracy: 0.390200
+12-06 13:06 INFO     >> Global Model 0 Attack Success Rate: 0.132500
+12-06 13:07 INFO     >> Global Model 4 Test accuracy: 0.434700
+12-06 13:07 INFO     >> Global Model 4 Attack Success Rate: 0.166100
+12-06 13:07 INFO     >> Global Model 6 Test accuracy: 0.396600
+12-06 13:07 INFO     >> Global Model 6 Attack Success Rate: 0.999800
+12-06 13:07 INFO     >> Global Model 8 Test accuracy: 0.433900
+12-06 13:07 INFO     >> Global Model 8 Attack Success Rate: 0.165500
+12-06 13:07 INFO     >> Global Model 9 Test accuracy: 0.400800
+12-06 13:07 INFO     >> Global Model 9 Attack Success Rate: 0.999800
+12-06 13:07 INFO     in comm round:30
+12-06 13:07 INFO     normal net 0 final test acc 0.432200
+12-06 13:07 INFO     normal net 1 final test acc 0.382300
+12-06 13:08 INFO     normal net 3 final test acc 0.510600
+12-06 13:08 INFO     normal net 4 final test acc 0.371000
+12-06 13:08 INFO     normal net 5 final test acc 0.288200
+12-06 13:08 INFO     >> Global Model 0 Test accuracy: 0.474400
+12-06 13:08 INFO     >> Global Model 0 Attack Success Rate: 0.190600
+12-06 13:08 INFO     >> Global Model 1 Test accuracy: 0.474800
+12-06 13:08 INFO     >> Global Model 1 Attack Success Rate: 0.191200
+12-06 13:08 INFO     >> Global Model 3 Test accuracy: 0.474600
+12-06 13:08 INFO     >> Global Model 3 Attack Success Rate: 0.190100
+12-06 13:08 INFO     >> Global Model 4 Test accuracy: 0.473900
+12-06 13:08 INFO     >> Global Model 4 Attack Success Rate: 0.189700
+12-06 13:09 INFO     >> Global Model 5 Test accuracy: 0.279800
+12-06 13:09 INFO     >> Global Model 5 Attack Success Rate: 0.046300
+12-06 13:09 INFO     in comm round:31
+12-06 13:09 INFO     normal net 0 final test acc 0.402000
+12-06 13:09 INFO     normal net 1 final test acc 0.426700
+12-06 13:09 INFO     normal net 4 final test acc 0.413600
+12-06 13:09 INFO     normal net 5 final test acc 0.312200
+12-06 13:10 INFO     attacker net 6 final test acc 0.342600
+12-06 13:10 INFO     >> Global Model 0 Test accuracy: 0.495000
+12-06 13:10 INFO     >> Global Model 0 Attack Success Rate: 0.207600
+12-06 13:10 INFO     >> Global Model 1 Test accuracy: 0.494700
+12-06 13:10 INFO     >> Global Model 1 Attack Success Rate: 0.211500
+12-06 13:10 INFO     >> Global Model 4 Test accuracy: 0.507900
+12-06 13:10 INFO     >> Global Model 4 Attack Success Rate: 0.216500
+12-06 13:10 INFO     >> Global Model 5 Test accuracy: 0.292100
+12-06 13:10 INFO     >> Global Model 5 Attack Success Rate: 0.006700
+12-06 13:10 INFO     >> Global Model 6 Test accuracy: 0.435900
+12-06 13:10 INFO     >> Global Model 6 Attack Success Rate: 0.256100
+12-06 13:10 INFO     in comm round:32
+12-06 13:10 INFO     normal net 0 final test acc 0.450000
+12-06 13:11 INFO     normal net 4 final test acc 0.411900
+12-06 13:11 INFO     normal net 7 final test acc 0.432700
+12-06 13:11 INFO     normal net 8 final test acc 0.456200
+12-06 13:11 INFO     attacker net 9 final test acc 0.374100
+12-06 13:12 INFO     >> Global Model 0 Test accuracy: 0.451000
+12-06 13:12 INFO     >> Global Model 0 Attack Success Rate: 0.177500
+12-06 13:12 INFO     >> Global Model 4 Test accuracy: 0.469900
+12-06 13:12 INFO     >> Global Model 4 Attack Success Rate: 0.121300
+12-06 13:12 INFO     >> Global Model 7 Test accuracy: 0.489000
+12-06 13:12 INFO     >> Global Model 7 Attack Success Rate: 0.093800
+12-06 13:12 INFO     >> Global Model 8 Test accuracy: 0.488700
+12-06 13:12 INFO     >> Global Model 8 Attack Success Rate: 0.095300
+12-06 13:12 INFO     >> Global Model 9 Test accuracy: 0.384400
+12-06 13:12 INFO     >> Global Model 9 Attack Success Rate: 0.922800
+12-06 13:12 INFO     in comm round:33
+12-06 13:12 INFO     normal net 2 final test acc 0.412200
+12-06 13:13 INFO     normal net 3 final test acc 0.505900
+12-06 13:13 INFO     normal net 4 final test acc 0.395300
+12-06 13:13 INFO     normal net 5 final test acc 0.280200
+12-06 13:13 INFO     attacker net 6 final test acc 0.374300
+12-06 13:13 INFO     >> Global Model 2 Test accuracy: 0.414300
+12-06 13:13 INFO     >> Global Model 2 Attack Success Rate: 0.017100
+12-06 13:13 INFO     >> Global Model 3 Test accuracy: 0.469500
+12-06 13:13 INFO     >> Global Model 3 Attack Success Rate: 0.219900
+12-06 13:14 INFO     >> Global Model 4 Test accuracy: 0.509300
+12-06 13:14 INFO     >> Global Model 4 Attack Success Rate: 0.222900
+12-06 13:14 INFO     >> Global Model 5 Test accuracy: 0.267100
+12-06 13:14 INFO     >> Global Model 5 Attack Success Rate: 0.024100
+12-06 13:14 INFO     >> Global Model 6 Test accuracy: 0.409200
+12-06 13:14 INFO     >> Global Model 6 Attack Success Rate: 0.371200
+12-06 13:14 INFO     in comm round:34
+12-06 13:14 INFO     normal net 0 final test acc 0.432700
+12-06 13:14 INFO     normal net 2 final test acc 0.413300
+12-06 13:14 INFO     normal net 3 final test acc 0.513100
+12-06 13:15 INFO     attacker net 6 final test acc 0.381300
+12-06 13:15 INFO     normal net 7 final test acc 0.470700
+12-06 13:15 INFO     >> Global Model 0 Test accuracy: 0.603400
+12-06 13:15 INFO     >> Global Model 0 Attack Success Rate: 0.095200
+12-06 13:15 INFO     >> Global Model 2 Test accuracy: 0.453400
+12-06 13:15 INFO     >> Global Model 2 Attack Success Rate: 0.084700
+12-06 13:15 INFO     >> Global Model 3 Test accuracy: 0.561800
+12-06 13:15 INFO     >> Global Model 3 Attack Success Rate: 0.133200
+12-06 13:15 INFO     >> Global Model 6 Test accuracy: 0.377900
+12-06 13:15 INFO     >> Global Model 6 Attack Success Rate: 0.980200
+12-06 13:15 INFO     >> Global Model 7 Test accuracy: 0.558400
+12-06 13:16 INFO     >> Global Model 7 Attack Success Rate: 0.131800
+12-06 13:16 INFO     in comm round:35
+12-06 13:16 INFO     normal net 2 final test acc 0.501900
+12-06 13:16 INFO     normal net 4 final test acc 0.417200
+12-06 13:16 INFO     normal net 5 final test acc 0.356500
+12-06 13:16 INFO     normal net 8 final test acc 0.462500
+12-06 13:17 INFO     attacker net 9 final test acc 0.459700
+12-06 13:17 INFO     >> Global Model 2 Test accuracy: 0.505500
+12-06 13:17 INFO     >> Global Model 2 Attack Success Rate: 0.060000
+12-06 13:17 INFO     >> Global Model 4 Test accuracy: 0.459900
+12-06 13:17 INFO     >> Global Model 4 Attack Success Rate: 0.164900
+12-06 13:17 INFO     >> Global Model 5 Test accuracy: 0.356100
+12-06 13:17 INFO     >> Global Model 5 Attack Success Rate: 0.080800
+12-06 13:17 INFO     >> Global Model 8 Test accuracy: 0.460300
+12-06 13:17 INFO     >> Global Model 8 Attack Success Rate: 0.158700
+12-06 13:17 INFO     >> Global Model 9 Test accuracy: 0.470100
+12-06 13:17 INFO     >> Global Model 9 Attack Success Rate: 0.969100
+12-06 13:17 INFO     in comm round:36
+12-06 13:18 INFO     normal net 0 final test acc 0.433600
+12-06 13:18 INFO     normal net 1 final test acc 0.399400
+12-06 13:18 INFO     normal net 2 final test acc 0.437300
+12-06 13:18 INFO     normal net 3 final test acc 0.501800
+12-06 13:18 INFO     normal net 7 final test acc 0.439000
+12-06 13:19 INFO     >> Global Model 0 Test accuracy: 0.482700
+12-06 13:19 INFO     >> Global Model 0 Attack Success Rate: 0.098200
+12-06 13:19 INFO     >> Global Model 1 Test accuracy: 0.468000
+12-06 13:19 INFO     >> Global Model 1 Attack Success Rate: 0.030900
+12-06 13:19 INFO     >> Global Model 2 Test accuracy: 0.597100
+12-06 13:19 INFO     >> Global Model 2 Attack Success Rate: 0.098500
+12-06 13:19 INFO     >> Global Model 3 Test accuracy: 0.499700
+12-06 13:19 INFO     >> Global Model 3 Attack Success Rate: 0.067400
+12-06 13:19 INFO     >> Global Model 7 Test accuracy: 0.436900
+12-06 13:19 INFO     >> Global Model 7 Attack Success Rate: 0.000000
+12-06 13:19 INFO     in comm round:37
+12-06 13:19 INFO     normal net 2 final test acc 0.504400
+12-06 13:19 INFO     normal net 4 final test acc 0.380300
+12-06 13:20 INFO     normal net 5 final test acc 0.310400
+12-06 13:20 INFO     attacker net 6 final test acc 0.371900
+12-06 13:20 INFO     normal net 8 final test acc 0.525600
+12-06 13:20 INFO     >> Global Model 2 Test accuracy: 0.500300
+12-06 13:20 INFO     >> Global Model 2 Attack Success Rate: 0.036700
+12-06 13:20 INFO     >> Global Model 4 Test accuracy: 0.452900
+12-06 13:21 INFO     >> Global Model 4 Attack Success Rate: 0.206900
+12-06 13:21 INFO     >> Global Model 5 Test accuracy: 0.298800
+12-06 13:21 INFO     >> Global Model 5 Attack Success Rate: 0.077800
+12-06 13:21 INFO     >> Global Model 6 Test accuracy: 0.391100
+12-06 13:21 INFO     >> Global Model 6 Attack Success Rate: 0.230100
+12-06 13:21 INFO     >> Global Model 8 Test accuracy: 0.476400
+12-06 13:21 INFO     >> Global Model 8 Attack Success Rate: 0.182600
+12-06 13:21 INFO     in comm round:38
+12-06 13:21 INFO     normal net 2 final test acc 0.552700
+12-06 13:21 INFO     normal net 4 final test acc 0.396500
+12-06 13:21 INFO     normal net 5 final test acc 0.387900
+12-06 13:22 INFO     attacker net 6 final test acc 0.387200
+12-06 13:22 INFO     normal net 8 final test acc 0.494900
+12-06 13:22 INFO     >> Global Model 2 Test accuracy: 0.575100
+12-06 13:22 INFO     >> Global Model 2 Attack Success Rate: 0.057700
+12-06 13:22 INFO     >> Global Model 4 Test accuracy: 0.491900
+12-06 13:22 INFO     >> Global Model 4 Attack Success Rate: 0.242500
+12-06 13:22 INFO     >> Global Model 5 Test accuracy: 0.360300
+12-06 13:22 INFO     >> Global Model 5 Attack Success Rate: 0.104000
+12-06 13:22 INFO     >> Global Model 6 Test accuracy: 0.480400
+12-06 13:23 INFO     >> Global Model 6 Attack Success Rate: 0.574800
+12-06 13:23 INFO     >> Global Model 8 Test accuracy: 0.471600
+12-06 13:23 INFO     >> Global Model 8 Attack Success Rate: 0.199800
+12-06 13:23 INFO     in comm round:39
+12-06 13:23 INFO     normal net 0 final test acc 0.413900
+12-06 13:23 INFO     normal net 1 final test acc 0.325000
+12-06 13:23 INFO     normal net 2 final test acc 0.488800
+12-06 13:23 INFO     normal net 5 final test acc 0.328000
+12-06 13:24 INFO     normal net 7 final test acc 0.456600
+12-06 13:24 INFO     >> Global Model 0 Test accuracy: 0.593200
+12-06 13:24 INFO     >> Global Model 0 Attack Success Rate: 0.114400
+12-06 13:24 INFO     >> Global Model 1 Test accuracy: 0.641600
+12-06 13:24 INFO     >> Global Model 1 Attack Success Rate: 0.091800
+12-06 13:24 INFO     >> Global Model 2 Test accuracy: 0.592400
+12-06 13:24 INFO     >> Global Model 2 Attack Success Rate: 0.111700
+12-06 13:24 INFO     >> Global Model 5 Test accuracy: 0.291400
+12-06 13:24 INFO     >> Global Model 5 Attack Success Rate: 0.030900
+12-06 13:24 INFO     >> Global Model 7 Test accuracy: 0.485000
+12-06 13:24 INFO     >> Global Model 7 Attack Success Rate: 0.048200
+12-06 13:24 INFO     in comm round:40
+12-06 13:25 INFO     normal net 0 final test acc 0.425800
+12-06 13:25 INFO     normal net 1 final test acc 0.472000
+12-06 13:25 INFO     normal net 4 final test acc 0.434000
+12-06 13:25 INFO     attacker net 6 final test acc 0.402000
+12-06 13:25 INFO     normal net 8 final test acc 0.537300
+12-06 13:26 INFO     >> Global Model 0 Test accuracy: 0.426100
+12-06 13:26 INFO     >> Global Model 0 Attack Success Rate: 0.145400
+12-06 13:26 INFO     >> Global Model 1 Test accuracy: 0.467000
+12-06 13:26 INFO     >> Global Model 1 Attack Success Rate: 0.031300
+12-06 13:26 INFO     >> Global Model 4 Test accuracy: 0.511800
+12-06 13:26 INFO     >> Global Model 4 Attack Success Rate: 0.146000
+12-06 13:26 INFO     >> Global Model 6 Test accuracy: 0.403700
+12-06 13:26 INFO     >> Global Model 6 Attack Success Rate: 0.980700
+12-06 13:26 INFO     >> Global Model 8 Test accuracy: 0.511100
+12-06 13:26 INFO     >> Global Model 8 Attack Success Rate: 0.147600
+12-06 13:26 INFO     in comm round:41
+12-06 13:26 INFO     normal net 2 final test acc 0.550100
+12-06 13:27 INFO     normal net 4 final test acc 0.434300
+12-06 13:27 INFO     normal net 5 final test acc 0.348200
+12-06 13:27 INFO     normal net 7 final test acc 0.467400
+12-06 13:27 INFO     normal net 8 final test acc 0.535300
+12-06 13:27 INFO     >> Global Model 2 Test accuracy: 0.542800
+12-06 13:27 INFO     >> Global Model 2 Attack Success Rate: 0.004500
+12-06 13:27 INFO     >> Global Model 4 Test accuracy: 0.479400
+12-06 13:28 INFO     >> Global Model 4 Attack Success Rate: 0.167500
+12-06 13:28 INFO     >> Global Model 5 Test accuracy: 0.340400
+12-06 13:28 INFO     >> Global Model 5 Attack Success Rate: 0.055800
+12-06 13:28 INFO     >> Global Model 7 Test accuracy: 0.470600
+12-06 13:28 INFO     >> Global Model 7 Attack Success Rate: 0.000400
+12-06 13:28 INFO     >> Global Model 8 Test accuracy: 0.482600
+12-06 13:28 INFO     >> Global Model 8 Attack Success Rate: 0.170000
+12-06 13:28 INFO     in comm round:42
+12-06 13:28 INFO     normal net 2 final test acc 0.567200
+12-06 13:28 INFO     normal net 3 final test acc 0.461400
+12-06 13:29 INFO     normal net 4 final test acc 0.433100
+12-06 13:29 INFO     normal net 5 final test acc 0.316500
+12-06 13:29 INFO     attacker net 9 final test acc 0.407900
+12-06 13:29 INFO     >> Global Model 2 Test accuracy: 0.566600
+12-06 13:29 INFO     >> Global Model 2 Attack Success Rate: 0.200700
+12-06 13:29 INFO     >> Global Model 3 Test accuracy: 0.568600
+12-06 13:29 INFO     >> Global Model 3 Attack Success Rate: 0.200300
+12-06 13:29 INFO     >> Global Model 4 Test accuracy: 0.570300
+12-06 13:29 INFO     >> Global Model 4 Attack Success Rate: 0.195500
+12-06 13:29 INFO     >> Global Model 5 Test accuracy: 0.345500
+12-06 13:29 INFO     >> Global Model 5 Attack Success Rate: 0.021900
+12-06 13:30 INFO     >> Global Model 9 Test accuracy: 0.424000
+12-06 13:30 INFO     >> Global Model 9 Attack Success Rate: 0.995400
+12-06 13:30 INFO     in comm round:43
+12-06 13:30 INFO     normal net 0 final test acc 0.447000
+12-06 13:30 INFO     normal net 1 final test acc 0.395000
+12-06 13:30 INFO     normal net 4 final test acc 0.425500
+12-06 13:30 INFO     attacker net 6 final test acc 0.348400
+12-06 13:31 INFO     normal net 8 final test acc 0.546200
+12-06 13:31 INFO     >> Global Model 0 Test accuracy: 0.524500
+12-06 13:31 INFO     >> Global Model 0 Attack Success Rate: 0.190500
+12-06 13:31 INFO     >> Global Model 1 Test accuracy: 0.518200
+12-06 13:31 INFO     >> Global Model 1 Attack Success Rate: 0.189200
+12-06 13:31 INFO     >> Global Model 4 Test accuracy: 0.503100
+12-06 13:31 INFO     >> Global Model 4 Attack Success Rate: 0.196200
+12-06 13:31 INFO     >> Global Model 6 Test accuracy: 0.359400
+12-06 13:31 INFO     >> Global Model 6 Attack Success Rate: 1.000000
+12-06 13:31 INFO     >> Global Model 8 Test accuracy: 0.499800
+12-06 13:31 INFO     >> Global Model 8 Attack Success Rate: 0.179300
+12-06 13:31 INFO     in comm round:44
+12-06 13:32 INFO     normal net 1 final test acc 0.438600
+12-06 13:32 INFO     normal net 2 final test acc 0.475500
+12-06 13:32 INFO     normal net 3 final test acc 0.563500
+12-06 13:32 INFO     normal net 5 final test acc 0.466900
+12-06 13:32 INFO     attacker net 9 final test acc 0.469300
+12-06 13:33 INFO     >> Global Model 1 Test accuracy: 0.496000
+12-06 13:33 INFO     >> Global Model 1 Attack Success Rate: 0.013500
+12-06 13:33 INFO     >> Global Model 2 Test accuracy: 0.600200
+12-06 13:33 INFO     >> Global Model 2 Attack Success Rate: 0.028700
+12-06 13:33 INFO     >> Global Model 3 Test accuracy: 0.554400
+12-06 13:33 INFO     >> Global Model 3 Attack Success Rate: 0.013100
+12-06 13:33 INFO     >> Global Model 5 Test accuracy: 0.458500
+12-06 13:33 INFO     >> Global Model 5 Attack Success Rate: 0.102200
+12-06 13:33 INFO     >> Global Model 9 Test accuracy: 0.481500
+12-06 13:33 INFO     >> Global Model 9 Attack Success Rate: 0.957800
+12-06 13:33 INFO     in comm round:45
+12-06 13:33 INFO     normal net 0 final test acc 0.423400
+12-06 13:34 INFO     normal net 3 final test acc 0.556100
+12-06 13:34 INFO     attacker net 6 final test acc 0.403900
+12-06 13:34 INFO     normal net 7 final test acc 0.468300
+12-06 13:34 INFO     normal net 8 final test acc 0.536700
+12-06 13:34 INFO     >> Global Model 0 Test accuracy: 0.562800
+12-06 13:34 INFO     >> Global Model 0 Attack Success Rate: 0.134800
+12-06 13:35 INFO     >> Global Model 3 Test accuracy: 0.577100
+12-06 13:35 INFO     >> Global Model 3 Attack Success Rate: 0.107800
+12-06 13:35 INFO     >> Global Model 6 Test accuracy: 0.411900
+12-06 13:35 INFO     >> Global Model 6 Attack Success Rate: 0.994400
+12-06 13:35 INFO     >> Global Model 7 Test accuracy: 0.535500
+12-06 13:35 INFO     >> Global Model 7 Attack Success Rate: 0.032200
+12-06 13:35 INFO     >> Global Model 8 Test accuracy: 0.603400
+12-06 13:35 INFO     >> Global Model 8 Attack Success Rate: 0.107900
+12-06 13:35 INFO     in comm round:46
+12-06 13:35 INFO     normal net 0 final test acc 0.452500
+12-06 13:35 INFO     normal net 1 final test acc 0.442600
+12-06 13:36 INFO     normal net 3 final test acc 0.579200
+12-06 13:36 INFO     attacker net 6 final test acc 0.383400
+12-06 13:36 INFO     attacker net 9 final test acc 0.469300
+12-06 13:36 INFO     >> Global Model 0 Test accuracy: 0.434100
+12-06 13:36 INFO     >> Global Model 0 Attack Success Rate: 0.124300
+12-06 13:36 INFO     >> Global Model 1 Test accuracy: 0.436300
+12-06 13:36 INFO     >> Global Model 1 Attack Success Rate: 0.092500
+12-06 13:36 INFO     >> Global Model 3 Test accuracy: 0.568600
+12-06 13:36 INFO     >> Global Model 3 Attack Success Rate: 0.107500
+12-06 13:36 INFO     >> Global Model 6 Test accuracy: 0.446400
+12-06 13:37 INFO     >> Global Model 6 Attack Success Rate: 0.988200
+12-06 13:37 INFO     >> Global Model 9 Test accuracy: 0.442100
+12-06 13:37 INFO     >> Global Model 9 Attack Success Rate: 0.990700
+12-06 13:37 INFO     in comm round:47
+12-06 13:37 INFO     normal net 1 final test acc 0.423300
+12-06 13:37 INFO     normal net 2 final test acc 0.590600
+12-06 13:37 INFO     normal net 3 final test acc 0.543300
+12-06 13:37 INFO     normal net 4 final test acc 0.443200
+12-06 13:38 INFO     normal net 8 final test acc 0.553100
+12-06 13:38 INFO     >> Global Model 1 Test accuracy: 0.421500
+12-06 13:38 INFO     >> Global Model 1 Attack Success Rate: 0.101300
+12-06 13:38 INFO     >> Global Model 2 Test accuracy: 0.608200
+12-06 13:38 INFO     >> Global Model 2 Attack Success Rate: 0.040200
+12-06 13:38 INFO     >> Global Model 3 Test accuracy: 0.549600
+12-06 13:38 INFO     >> Global Model 3 Attack Success Rate: 0.159200
+12-06 13:38 INFO     >> Global Model 4 Test accuracy: 0.489200
+12-06 13:38 INFO     >> Global Model 4 Attack Success Rate: 0.135300
+12-06 13:38 INFO     >> Global Model 8 Test accuracy: 0.493900
+12-06 13:38 INFO     >> Global Model 8 Attack Success Rate: 0.134600
+12-06 13:38 INFO     in comm round:48
+12-06 13:39 INFO     normal net 0 final test acc 0.436200
+12-06 13:39 INFO     normal net 3 final test acc 0.589000
+12-06 13:39 INFO     normal net 7 final test acc 0.505000
+12-06 13:39 INFO     normal net 8 final test acc 0.532400
+12-06 13:40 INFO     attacker net 9 final test acc 0.425600
+12-06 13:40 INFO     >> Global Model 0 Test accuracy: 0.567700
+12-06 13:40 INFO     >> Global Model 0 Attack Success Rate: 0.111900
+12-06 13:40 INFO     >> Global Model 3 Test accuracy: 0.631800
+12-06 13:40 INFO     >> Global Model 3 Attack Success Rate: 0.096800
+12-06 13:40 INFO     >> Global Model 7 Test accuracy: 0.637700
+12-06 13:40 INFO     >> Global Model 7 Attack Success Rate: 0.074500
+12-06 13:40 INFO     >> Global Model 8 Test accuracy: 0.632200
+12-06 13:40 INFO     >> Global Model 8 Attack Success Rate: 0.096000
+12-06 13:40 INFO     >> Global Model 9 Test accuracy: 0.430000
+12-06 13:40 INFO     >> Global Model 9 Attack Success Rate: 0.982600
+12-06 13:40 INFO     in comm round:49
+12-06 13:40 INFO     normal net 0 final test acc 0.473700
+12-06 13:41 INFO     normal net 3 final test acc 0.551600
+12-06 13:41 INFO     normal net 4 final test acc 0.433700
+12-06 13:41 INFO     normal net 5 final test acc 0.418900
+12-06 13:41 INFO     normal net 7 final test acc 0.474400
+12-06 13:41 INFO     >> Global Model 0 Test accuracy: 0.469700
+12-06 13:42 INFO     >> Global Model 0 Attack Success Rate: 0.137700
+12-06 13:42 INFO     >> Global Model 3 Test accuracy: 0.552700
+12-06 13:42 INFO     >> Global Model 3 Attack Success Rate: 0.179800
+12-06 13:42 INFO     >> Global Model 4 Test accuracy: 0.600200
+12-06 13:42 INFO     >> Global Model 4 Attack Success Rate: 0.127300
+12-06 13:42 INFO     >> Global Model 5 Test accuracy: 0.414500
+12-06 13:42 INFO     >> Global Model 5 Attack Success Rate: 0.066400
+12-06 13:42 INFO     >> Global Model 7 Test accuracy: 0.493900
+12-06 13:42 INFO     >> Global Model 7 Attack Success Rate: 0.127000
+12-06 13:42 INFO     in comm round:50
+12-06 13:42 INFO     normal net 1 final test acc 0.492900
+12-06 13:42 INFO     normal net 3 final test acc 0.648100
+12-06 13:43 INFO     normal net 5 final test acc 0.402700
+12-06 13:43 INFO     attacker net 6 final test acc 0.448700
+12-06 13:43 INFO     normal net 8 final test acc 0.540900
+12-06 13:43 INFO     >> Global Model 1 Test accuracy: 0.619200
+12-06 13:43 INFO     >> Global Model 1 Attack Success Rate: 0.099200
+12-06 13:43 INFO     >> Global Model 3 Test accuracy: 0.645500
+12-06 13:43 INFO     >> Global Model 3 Attack Success Rate: 0.099200
+12-06 13:43 INFO     >> Global Model 5 Test accuracy: 0.409700
+12-06 13:44 INFO     >> Global Model 5 Attack Success Rate: 0.049300
+12-06 13:44 INFO     >> Global Model 6 Test accuracy: 0.452200
+12-06 13:44 INFO     >> Global Model 6 Attack Success Rate: 0.950100
+12-06 13:44 INFO     >> Global Model 8 Test accuracy: 0.686000
+12-06 13:44 INFO     >> Global Model 8 Attack Success Rate: 0.100900
+12-06 13:44 INFO     in comm round:51
+12-06 13:44 INFO     normal net 0 final test acc 0.459500
+12-06 13:44 INFO     normal net 2 final test acc 0.592000
+12-06 13:44 INFO     normal net 3 final test acc 0.592900
+12-06 13:45 INFO     normal net 5 final test acc 0.472200
+12-06 13:45 INFO     attacker net 6 final test acc 0.402900
+12-06 13:45 INFO     >> Global Model 0 Test accuracy: 0.648000
+12-06 13:45 INFO     >> Global Model 0 Attack Success Rate: 0.119800
+12-06 13:45 INFO     >> Global Model 2 Test accuracy: 0.655500
+12-06 13:45 INFO     >> Global Model 2 Attack Success Rate: 0.121600
+12-06 13:45 INFO     >> Global Model 3 Test accuracy: 0.587400
+12-06 13:45 INFO     >> Global Model 3 Attack Success Rate: 0.166100
+12-06 13:45 INFO     >> Global Model 5 Test accuracy: 0.471100
+12-06 13:45 INFO     >> Global Model 5 Attack Success Rate: 0.154300
+12-06 13:45 INFO     >> Global Model 6 Test accuracy: 0.400400
+12-06 13:45 INFO     >> Global Model 6 Attack Success Rate: 0.993000
+12-06 13:45 INFO     in comm round:52
+12-06 13:46 INFO     normal net 0 final test acc 0.465100
+12-06 13:46 INFO     normal net 3 final test acc 0.627600
+12-06 13:46 INFO     normal net 5 final test acc 0.454600
+12-06 13:46 INFO     normal net 8 final test acc 0.545300
+12-06 13:47 INFO     attacker net 9 final test acc 0.497100
+12-06 13:47 INFO     >> Global Model 0 Test accuracy: 0.572500
+12-06 13:47 INFO     >> Global Model 0 Attack Success Rate: 0.095400
+12-06 13:47 INFO     >> Global Model 3 Test accuracy: 0.623000
+12-06 13:47 INFO     >> Global Model 3 Attack Success Rate: 0.106600
+12-06 13:47 INFO     >> Global Model 5 Test accuracy: 0.439600
+12-06 13:47 INFO     >> Global Model 5 Attack Success Rate: 0.072900
+12-06 13:47 INFO     >> Global Model 8 Test accuracy: 0.615500
+12-06 13:47 INFO     >> Global Model 8 Attack Success Rate: 0.107100
+12-06 13:47 INFO     >> Global Model 9 Test accuracy: 0.492300
+12-06 13:47 INFO     >> Global Model 9 Attack Success Rate: 0.993000
+12-06 13:47 INFO     in comm round:53
+12-06 13:47 INFO     normal net 0 final test acc 0.475400
+12-06 13:48 INFO     normal net 1 final test acc 0.442800
+12-06 13:48 INFO     normal net 7 final test acc 0.458300
+12-06 13:48 INFO     normal net 8 final test acc 0.591200
+12-06 13:48 INFO     attacker net 9 final test acc 0.502400
+12-06 13:49 INFO     >> Global Model 0 Test accuracy: 0.651200
+12-06 13:49 INFO     >> Global Model 0 Attack Success Rate: 0.117100
+12-06 13:49 INFO     >> Global Model 1 Test accuracy: 0.572500
+12-06 13:49 INFO     >> Global Model 1 Attack Success Rate: 0.169500
+12-06 13:49 INFO     >> Global Model 7 Test accuracy: 0.553600
+12-06 13:49 INFO     >> Global Model 7 Attack Success Rate: 0.019900
+12-06 13:49 INFO     >> Global Model 8 Test accuracy: 0.640200
+12-06 13:49 INFO     >> Global Model 8 Attack Success Rate: 0.088200
+12-06 13:49 INFO     >> Global Model 9 Test accuracy: 0.506300
+12-06 13:49 INFO     >> Global Model 9 Attack Success Rate: 0.985800
+12-06 13:49 INFO     in comm round:54
+12-06 13:49 INFO     normal net 2 final test acc 0.542700
+12-06 13:49 INFO     normal net 3 final test acc 0.585300
+12-06 13:50 INFO     normal net 4 final test acc 0.435900
+12-06 13:50 INFO     normal net 5 final test acc 0.477100
+12-06 13:50 INFO     attacker net 9 final test acc 0.508400
+12-06 13:50 INFO     >> Global Model 2 Test accuracy: 0.606300
+12-06 13:50 INFO     >> Global Model 2 Attack Success Rate: 0.138500
+12-06 13:50 INFO     >> Global Model 3 Test accuracy: 0.574300
+12-06 13:50 INFO     >> Global Model 3 Attack Success Rate: 0.168300
+12-06 13:50 INFO     >> Global Model 4 Test accuracy: 0.676100
+12-06 13:51 INFO     >> Global Model 4 Attack Success Rate: 0.140700
+12-06 13:51 INFO     >> Global Model 5 Test accuracy: 0.627200
+12-06 13:51 INFO     >> Global Model 5 Attack Success Rate: 0.104700
+12-06 13:51 INFO     >> Global Model 9 Test accuracy: 0.523500
+12-06 13:51 INFO     >> Global Model 9 Attack Success Rate: 0.992700
+12-06 13:51 INFO     in comm round:55
+12-06 13:51 INFO     normal net 1 final test acc 0.501700
+12-06 13:51 INFO     normal net 2 final test acc 0.567500
+12-06 13:51 INFO     normal net 3 final test acc 0.574600
+12-06 13:52 INFO     attacker net 6 final test acc 0.416400
+12-06 13:52 INFO     normal net 7 final test acc 0.493300
+12-06 13:52 INFO     >> Global Model 1 Test accuracy: 0.595700
+12-06 13:52 INFO     >> Global Model 1 Attack Success Rate: 0.061500
+12-06 13:52 INFO     >> Global Model 2 Test accuracy: 0.660100
+12-06 13:52 INFO     >> Global Model 2 Attack Success Rate: 0.068700
+12-06 13:52 INFO     >> Global Model 3 Test accuracy: 0.630800
+12-06 13:52 INFO     >> Global Model 3 Attack Success Rate: 0.066200
+12-06 13:52 INFO     >> Global Model 6 Test accuracy: 0.427100
+12-06 13:52 INFO     >> Global Model 6 Attack Success Rate: 0.985400
+12-06 13:52 INFO     >> Global Model 7 Test accuracy: 0.497900
+12-06 13:52 INFO     >> Global Model 7 Attack Success Rate: 0.008300
+12-06 13:52 INFO     in comm round:56
+12-06 13:53 INFO     normal net 0 final test acc 0.491600
+12-06 13:53 INFO     normal net 1 final test acc 0.493700
+12-06 13:53 INFO     normal net 3 final test acc 0.607600
+12-06 13:53 INFO     normal net 4 final test acc 0.447500
+12-06 13:54 INFO     normal net 8 final test acc 0.559300
+12-06 13:54 INFO     >> Global Model 0 Test accuracy: 0.494800
+12-06 13:54 INFO     >> Global Model 0 Attack Success Rate: 0.099200
+12-06 13:54 INFO     >> Global Model 1 Test accuracy: 0.476600
+12-06 13:54 INFO     >> Global Model 1 Attack Success Rate: 0.102800
+12-06 13:54 INFO     >> Global Model 3 Test accuracy: 0.564000
+12-06 13:54 INFO     >> Global Model 3 Attack Success Rate: 0.213900
+12-06 13:54 INFO     >> Global Model 4 Test accuracy: 0.618300
+12-06 13:54 INFO     >> Global Model 4 Attack Success Rate: 0.139400
+12-06 13:54 INFO     >> Global Model 8 Test accuracy: 0.557300
+12-06 13:54 INFO     >> Global Model 8 Attack Success Rate: 0.157800
+12-06 13:54 INFO     in comm round:57
+12-06 13:54 INFO     normal net 0 final test acc 0.470000
+12-06 13:55 INFO     normal net 1 final test acc 0.469200
+12-06 13:55 INFO     normal net 2 final test acc 0.645500
+12-06 13:55 INFO     normal net 4 final test acc 0.446000
+12-06 13:55 INFO     normal net 5 final test acc 0.536000
+12-06 13:55 INFO     >> Global Model 0 Test accuracy: 0.637600
+12-06 13:55 INFO     >> Global Model 0 Attack Success Rate: 0.147600
+12-06 13:56 INFO     >> Global Model 1 Test accuracy: 0.634300
+12-06 13:56 INFO     >> Global Model 1 Attack Success Rate: 0.148100
+12-06 13:56 INFO     >> Global Model 2 Test accuracy: 0.639300
+12-06 13:56 INFO     >> Global Model 2 Attack Success Rate: 0.142400
+12-06 13:56 INFO     >> Global Model 4 Test accuracy: 0.445600
+12-06 13:56 INFO     >> Global Model 4 Attack Success Rate: 0.196200
+12-06 13:56 INFO     >> Global Model 5 Test accuracy: 0.517000
+12-06 13:56 INFO     >> Global Model 5 Attack Success Rate: 0.155200
+12-06 13:56 INFO     in comm round:58
+12-06 13:56 INFO     normal net 0 final test acc 0.458700
+12-06 13:56 INFO     normal net 1 final test acc 0.565800
+12-06 13:57 INFO     normal net 4 final test acc 0.462100
+12-06 13:57 INFO     normal net 7 final test acc 0.535600
+12-06 13:57 INFO     normal net 8 final test acc 0.531300
+12-06 13:57 INFO     >> Global Model 0 Test accuracy: 0.618800
+12-06 13:57 INFO     >> Global Model 0 Attack Success Rate: 0.137200
+12-06 13:57 INFO     >> Global Model 1 Test accuracy: 0.599300
+12-06 13:57 INFO     >> Global Model 1 Attack Success Rate: 0.183300
+12-06 13:57 INFO     >> Global Model 4 Test accuracy: 0.601300
+12-06 13:57 INFO     >> Global Model 4 Attack Success Rate: 0.155000
+12-06 13:58 INFO     >> Global Model 7 Test accuracy: 0.552900
+12-06 13:58 INFO     >> Global Model 7 Attack Success Rate: 0.025400
+12-06 13:58 INFO     >> Global Model 8 Test accuracy: 0.543200
+12-06 13:58 INFO     >> Global Model 8 Attack Success Rate: 0.159300
+12-06 13:58 INFO     in comm round:59
+12-06 13:58 INFO     normal net 2 final test acc 0.607400
+12-06 13:58 INFO     normal net 4 final test acc 0.456500
+12-06 13:58 INFO     normal net 5 final test acc 0.552300
+12-06 13:59 INFO     normal net 8 final test acc 0.602800
+12-06 13:59 INFO     attacker net 9 final test acc 0.477200
+12-06 13:59 INFO     >> Global Model 2 Test accuracy: 0.615900
+12-06 13:59 INFO     >> Global Model 2 Attack Success Rate: 0.043400
+12-06 13:59 INFO     >> Global Model 4 Test accuracy: 0.574800
+12-06 13:59 INFO     >> Global Model 4 Attack Success Rate: 0.160200
+12-06 13:59 INFO     >> Global Model 5 Test accuracy: 0.560300
+12-06 13:59 INFO     >> Global Model 5 Attack Success Rate: 0.132000
+12-06 13:59 INFO     >> Global Model 8 Test accuracy: 0.586700
+12-06 13:59 INFO     >> Global Model 8 Attack Success Rate: 0.159700
+12-06 13:59 INFO     >> Global Model 9 Test accuracy: 0.491300
+12-06 13:59 INFO     >> Global Model 9 Attack Success Rate: 0.995400
+12-06 13:59 INFO     in comm round:60
+12-06 14:00 INFO     normal net 0 final test acc 0.485100
+12-06 14:00 INFO     normal net 3 final test acc 0.615600
+12-06 14:00 INFO     normal net 5 final test acc 0.485500
+12-06 14:00 INFO     normal net 7 final test acc 0.517600
+12-06 14:01 INFO     normal net 8 final test acc 0.527500
+12-06 14:01 INFO     >> Global Model 0 Test accuracy: 0.497600
+12-06 14:01 INFO     >> Global Model 0 Attack Success Rate: 0.141800
+12-06 14:01 INFO     >> Global Model 3 Test accuracy: 0.630300
+12-06 14:01 INFO     >> Global Model 3 Attack Success Rate: 0.094900
+12-06 14:01 INFO     >> Global Model 5 Test accuracy: 0.481400
+12-06 14:01 INFO     >> Global Model 5 Attack Success Rate: 0.097800
+12-06 14:01 INFO     >> Global Model 7 Test accuracy: 0.538800
+12-06 14:01 INFO     >> Global Model 7 Attack Success Rate: 0.023000
+12-06 14:01 INFO     >> Global Model 8 Test accuracy: 0.643400
+12-06 14:01 INFO     >> Global Model 8 Attack Success Rate: 0.076500
+12-06 14:01 INFO     in comm round:61
+12-06 14:01 INFO     normal net 1 final test acc 0.554900
+12-06 14:02 INFO     normal net 2 final test acc 0.567300
+12-06 14:02 INFO     normal net 3 final test acc 0.624000
+12-06 14:02 INFO     normal net 5 final test acc 0.516800
+12-06 14:02 INFO     normal net 8 final test acc 0.601800
+12-06 14:03 INFO     >> Global Model 1 Test accuracy: 0.614000
+12-06 14:03 INFO     >> Global Model 1 Attack Success Rate: 0.075200
+12-06 14:03 INFO     >> Global Model 2 Test accuracy: 0.612500
+12-06 14:03 INFO     >> Global Model 2 Attack Success Rate: 0.075400
+12-06 14:03 INFO     >> Global Model 3 Test accuracy: 0.693100
+12-06 14:03 INFO     >> Global Model 3 Attack Success Rate: 0.093100
+12-06 14:03 INFO     >> Global Model 5 Test accuracy: 0.534100
+12-06 14:03 INFO     >> Global Model 5 Attack Success Rate: 0.108700
+12-06 14:03 INFO     >> Global Model 8 Test accuracy: 0.693500
+12-06 14:03 INFO     >> Global Model 8 Attack Success Rate: 0.093800
+12-06 14:03 INFO     in comm round:62
+12-06 14:03 INFO     normal net 0 final test acc 0.456800
+12-06 14:03 INFO     normal net 1 final test acc 0.549700
+12-06 14:04 INFO     normal net 4 final test acc 0.435000
+12-06 14:04 INFO     attacker net 6 final test acc 0.393900
+12-06 14:04 INFO     attacker net 9 final test acc 0.495100
+12-06 14:04 INFO     >> Global Model 0 Test accuracy: 0.441700
+12-06 14:04 INFO     >> Global Model 0 Attack Success Rate: 0.144100
+12-06 14:04 INFO     >> Global Model 1 Test accuracy: 0.542100
+12-06 14:04 INFO     >> Global Model 1 Attack Success Rate: 0.118000
+12-06 14:05 INFO     >> Global Model 4 Test accuracy: 0.434600
+12-06 14:05 INFO     >> Global Model 4 Attack Success Rate: 0.378800
+12-06 14:05 INFO     >> Global Model 6 Test accuracy: 0.463100
+12-06 14:05 INFO     >> Global Model 6 Attack Success Rate: 0.998300
+12-06 14:05 INFO     >> Global Model 9 Test accuracy: 0.465100
+12-06 14:05 INFO     >> Global Model 9 Attack Success Rate: 0.997500
+12-06 14:05 INFO     in comm round:63
+12-06 14:05 INFO     normal net 2 final test acc 0.612400
+12-06 14:05 INFO     normal net 4 final test acc 0.465400
+12-06 14:05 INFO     normal net 5 final test acc 0.511800
+12-06 14:06 INFO     attacker net 6 final test acc 0.452300
+12-06 14:06 INFO     normal net 8 final test acc 0.540900
+12-06 14:06 INFO     >> Global Model 2 Test accuracy: 0.631600
+12-06 14:06 INFO     >> Global Model 2 Attack Success Rate: 0.074400
+12-06 14:06 INFO     >> Global Model 4 Test accuracy: 0.547900
+12-06 14:06 INFO     >> Global Model 4 Attack Success Rate: 0.133400
+12-06 14:06 INFO     >> Global Model 5 Test accuracy: 0.514700
+12-06 14:06 INFO     >> Global Model 5 Attack Success Rate: 0.131900
+12-06 14:06 INFO     >> Global Model 6 Test accuracy: 0.456500
+12-06 14:06 INFO     >> Global Model 6 Attack Success Rate: 0.918900
+12-06 14:07 INFO     >> Global Model 8 Test accuracy: 0.547000
+12-06 14:07 INFO     >> Global Model 8 Attack Success Rate: 0.136100
+12-06 14:07 INFO     in comm round:64
+12-06 14:07 INFO     normal net 0 final test acc 0.473400
+12-06 14:07 INFO     normal net 1 final test acc 0.560500
+12-06 14:07 INFO     normal net 2 final test acc 0.638100
+12-06 14:07 INFO     normal net 5 final test acc 0.519200
+12-06 14:08 INFO     normal net 7 final test acc 0.512800
+12-06 14:08 INFO     >> Global Model 0 Test accuracy: 0.685800
+12-06 14:08 INFO     >> Global Model 0 Attack Success Rate: 0.101100
+12-06 14:08 INFO     >> Global Model 1 Test accuracy: 0.648300
+12-06 14:08 INFO     >> Global Model 1 Attack Success Rate: 0.080100
+12-06 14:08 INFO     >> Global Model 2 Test accuracy: 0.692800
+12-06 14:08 INFO     >> Global Model 2 Attack Success Rate: 0.103100
+12-06 14:08 INFO     >> Global Model 5 Test accuracy: 0.527200
+12-06 14:08 INFO     >> Global Model 5 Attack Success Rate: 0.075600
+12-06 14:08 INFO     >> Global Model 7 Test accuracy: 0.520300
+12-06 14:08 INFO     >> Global Model 7 Attack Success Rate: 0.006100
+12-06 14:08 INFO     in comm round:65
+12-06 14:08 INFO     normal net 2 final test acc 0.574100
+12-06 14:09 INFO     normal net 3 final test acc 0.604400
+12-06 14:09 INFO     normal net 4 final test acc 0.460300
+12-06 14:09 INFO     normal net 8 final test acc 0.583300
+12-06 14:09 INFO     attacker net 9 final test acc 0.530400
+12-06 14:10 INFO     >> Global Model 2 Test accuracy: 0.597400
+12-06 14:10 INFO     >> Global Model 2 Attack Success Rate: 0.047900
+12-06 14:10 INFO     >> Global Model 3 Test accuracy: 0.612200
+12-06 14:10 INFO     >> Global Model 3 Attack Success Rate: 0.170600
+12-06 14:10 INFO     >> Global Model 4 Test accuracy: 0.591400
+12-06 14:10 INFO     >> Global Model 4 Attack Success Rate: 0.149500
+12-06 14:10 INFO     >> Global Model 8 Test accuracy: 0.597200
+12-06 14:10 INFO     >> Global Model 8 Attack Success Rate: 0.143800
+12-06 14:10 INFO     >> Global Model 9 Test accuracy: 0.536600
+12-06 14:10 INFO     >> Global Model 9 Attack Success Rate: 0.995500
+12-06 14:10 INFO     in comm round:66
+12-06 14:10 INFO     normal net 0 final test acc 0.508000
+12-06 14:10 INFO     normal net 2 final test acc 0.585300
+12-06 14:11 INFO     normal net 3 final test acc 0.623000
+12-06 14:11 INFO     normal net 4 final test acc 0.458500
+12-06 14:11 INFO     normal net 8 final test acc 0.622200
+12-06 14:11 INFO     >> Global Model 0 Test accuracy: 0.511800
+12-06 14:11 INFO     >> Global Model 0 Attack Success Rate: 0.195200
+12-06 14:11 INFO     >> Global Model 2 Test accuracy: 0.608700
+12-06 14:12 INFO     >> Global Model 2 Attack Success Rate: 0.018200
+12-06 14:12 INFO     >> Global Model 3 Test accuracy: 0.619700
+12-06 14:12 INFO     >> Global Model 3 Attack Success Rate: 0.146200
+12-06 14:12 INFO     >> Global Model 4 Test accuracy: 0.608500
+12-06 14:12 INFO     >> Global Model 4 Attack Success Rate: 0.132800
+12-06 14:12 INFO     >> Global Model 8 Test accuracy: 0.610400
+12-06 14:12 INFO     >> Global Model 8 Attack Success Rate: 0.130800
+12-06 14:12 INFO     in comm round:67
+12-06 14:12 INFO     normal net 0 final test acc 0.480200
+12-06 14:12 INFO     normal net 1 final test acc 0.545600
+12-06 14:13 INFO     normal net 3 final test acc 0.678400
+12-06 14:13 INFO     normal net 4 final test acc 0.458800
+12-06 14:13 INFO     normal net 7 final test acc 0.558600
+12-06 14:13 INFO     >> Global Model 0 Test accuracy: 0.614300
+12-06 14:13 INFO     >> Global Model 0 Attack Success Rate: 0.141500
+12-06 14:13 INFO     >> Global Model 1 Test accuracy: 0.615800
+12-06 14:13 INFO     >> Global Model 1 Attack Success Rate: 0.137300
+12-06 14:13 INFO     >> Global Model 3 Test accuracy: 0.662200
+12-06 14:13 INFO     >> Global Model 3 Attack Success Rate: 0.117900
+12-06 14:13 INFO     >> Global Model 4 Test accuracy: 0.590600
+12-06 14:13 INFO     >> Global Model 4 Attack Success Rate: 0.132900
+12-06 14:13 INFO     >> Global Model 7 Test accuracy: 0.597800
+12-06 14:14 INFO     >> Global Model 7 Attack Success Rate: 0.131900
+12-06 14:14 INFO     in comm round:68
+12-06 14:14 INFO     normal net 1 final test acc 0.536000
+12-06 14:14 INFO     normal net 2 final test acc 0.625800
+12-06 14:14 INFO     normal net 4 final test acc 0.462900
+12-06 14:14 INFO     attacker net 6 final test acc 0.432600
+12-06 14:15 INFO     normal net 7 final test acc 0.525000
+12-06 14:15 INFO     >> Global Model 1 Test accuracy: 0.702500
+12-06 14:15 INFO     >> Global Model 1 Attack Success Rate: 0.128100
+12-06 14:15 INFO     >> Global Model 2 Test accuracy: 0.674200
+12-06 14:15 INFO     >> Global Model 2 Attack Success Rate: 0.086300
+12-06 14:15 INFO     >> Global Model 4 Test accuracy: 0.680300
+12-06 14:15 INFO     >> Global Model 4 Attack Success Rate: 0.103800
+12-06 14:15 INFO     >> Global Model 6 Test accuracy: 0.434100
+12-06 14:15 INFO     >> Global Model 6 Attack Success Rate: 0.999300
+12-06 14:15 INFO     >> Global Model 7 Test accuracy: 0.616700
+12-06 14:15 INFO     >> Global Model 7 Attack Success Rate: 0.100400
+12-06 14:15 INFO     in comm round:69
+12-06 14:15 INFO     normal net 0 final test acc 0.464200
+12-06 14:16 INFO     normal net 1 final test acc 0.581900
+12-06 14:16 INFO     normal net 4 final test acc 0.466300
+12-06 14:16 INFO     attacker net 6 final test acc 0.428000
+12-06 14:16 INFO     attacker net 9 final test acc 0.508200
+12-06 14:17 INFO     >> Global Model 0 Test accuracy: 0.620000
+12-06 14:17 INFO     >> Global Model 0 Attack Success Rate: 0.198400
+12-06 14:17 INFO     >> Global Model 1 Test accuracy: 0.628700
+12-06 14:17 INFO     >> Global Model 1 Attack Success Rate: 0.186200
+12-06 14:17 INFO     >> Global Model 4 Test accuracy: 0.467900
+12-06 14:17 INFO     >> Global Model 4 Attack Success Rate: 0.257700
+12-06 14:17 INFO     >> Global Model 6 Test accuracy: 0.485100
+12-06 14:17 INFO     >> Global Model 6 Attack Success Rate: 0.995500
+12-06 14:17 INFO     >> Global Model 9 Test accuracy: 0.485300
+12-06 14:17 INFO     >> Global Model 9 Attack Success Rate: 0.997000
+12-06 14:17 INFO     in comm round:70
+12-06 14:17 INFO     normal net 2 final test acc 0.663200
+12-06 14:17 INFO     normal net 5 final test acc 0.445400
+12-06 14:18 INFO     attacker net 6 final test acc 0.380500
+12-06 14:18 INFO     normal net 7 final test acc 0.542500
+12-06 14:18 INFO     attacker net 9 final test acc 0.557900
+12-06 14:18 INFO     >> Global Model 2 Test accuracy: 0.685400
+12-06 14:18 INFO     >> Global Model 2 Attack Success Rate: 0.042300
+12-06 14:18 INFO     >> Global Model 5 Test accuracy: 0.449900
+12-06 14:18 INFO     >> Global Model 5 Attack Success Rate: 0.163500
+12-06 14:18 INFO     >> Global Model 6 Test accuracy: 0.498600
+12-06 14:19 INFO     >> Global Model 6 Attack Success Rate: 0.986200
+12-06 14:19 INFO     >> Global Model 7 Test accuracy: 0.541900
+12-06 14:19 INFO     >> Global Model 7 Attack Success Rate: 0.025800
+12-06 14:19 INFO     >> Global Model 9 Test accuracy: 0.509800
+12-06 14:19 INFO     >> Global Model 9 Attack Success Rate: 0.987600
+12-06 14:19 INFO     in comm round:71
+12-06 14:19 INFO     normal net 1 final test acc 0.510500
+12-06 14:19 INFO     normal net 3 final test acc 0.666400
+12-06 14:19 INFO     normal net 5 final test acc 0.490300
+12-06 14:20 INFO     normal net 7 final test acc 0.555400
+12-06 14:20 INFO     attacker net 9 final test acc 0.548800
+12-06 14:20 INFO     >> Global Model 1 Test accuracy: 0.720400
+12-06 14:20 INFO     >> Global Model 1 Attack Success Rate: 0.105700
+12-06 14:20 INFO     >> Global Model 3 Test accuracy: 0.731900
+12-06 14:20 INFO     >> Global Model 3 Attack Success Rate: 0.090100
+12-06 14:20 INFO     >> Global Model 5 Test accuracy: 0.625400
+12-06 14:20 INFO     >> Global Model 5 Attack Success Rate: 0.144800
+12-06 14:20 INFO     >> Global Model 7 Test accuracy: 0.782100
+12-06 14:20 INFO     >> Global Model 7 Attack Success Rate: 0.097500
+12-06 14:20 INFO     >> Global Model 9 Test accuracy: 0.559100
+12-06 14:20 INFO     >> Global Model 9 Attack Success Rate: 0.997600
+12-06 14:20 INFO     in comm round:72
+12-06 14:21 INFO     normal net 0 final test acc 0.507900
+12-06 14:21 INFO     normal net 2 final test acc 0.632300
+12-06 14:21 INFO     normal net 4 final test acc 0.459200
+12-06 14:21 INFO     normal net 5 final test acc 0.575000
+12-06 14:21 INFO     attacker net 6 final test acc 0.392000
+12-06 14:22 INFO     >> Global Model 0 Test accuracy: 0.661900
+12-06 14:22 INFO     >> Global Model 0 Attack Success Rate: 0.191900
+12-06 14:22 INFO     >> Global Model 2 Test accuracy: 0.713100
+12-06 14:22 INFO     >> Global Model 2 Attack Success Rate: 0.141400
+12-06 14:22 INFO     >> Global Model 4 Test accuracy: 0.573500
+12-06 14:22 INFO     >> Global Model 4 Attack Success Rate: 0.205300
+12-06 14:22 INFO     >> Global Model 5 Test accuracy: 0.580700
+12-06 14:22 INFO     >> Global Model 5 Attack Success Rate: 0.191600
+12-06 14:22 INFO     >> Global Model 6 Test accuracy: 0.398400
+12-06 14:22 INFO     >> Global Model 6 Attack Success Rate: 1.000000
+12-06 14:22 INFO     in comm round:73
+12-06 14:22 INFO     normal net 2 final test acc 0.683300
+12-06 14:22 INFO     normal net 5 final test acc 0.512600
+12-06 14:23 INFO     attacker net 6 final test acc 0.463200
+12-06 14:23 INFO     normal net 7 final test acc 0.576000
+12-06 14:23 INFO     attacker net 9 final test acc 0.564200
+12-06 14:23 INFO     >> Global Model 2 Test accuracy: 0.690700
+12-06 14:23 INFO     >> Global Model 2 Attack Success Rate: 0.080500
+12-06 14:23 INFO     >> Global Model 5 Test accuracy: 0.519400
+12-06 14:23 INFO     >> Global Model 5 Attack Success Rate: 0.102000
+12-06 14:24 INFO     >> Global Model 6 Test accuracy: 0.549700
+12-06 14:24 INFO     >> Global Model 6 Attack Success Rate: 0.986900
+12-06 14:24 INFO     >> Global Model 7 Test accuracy: 0.583900
+12-06 14:24 INFO     >> Global Model 7 Attack Success Rate: 0.032000
+12-06 14:24 INFO     >> Global Model 9 Test accuracy: 0.550200
+12-06 14:24 INFO     >> Global Model 9 Attack Success Rate: 0.987200
+12-06 14:24 INFO     in comm round:74
+12-06 14:24 INFO     normal net 1 final test acc 0.595700
+12-06 14:24 INFO     normal net 5 final test acc 0.566500
+12-06 14:24 INFO     normal net 7 final test acc 0.556700
+12-06 14:25 INFO     normal net 8 final test acc 0.612700
+12-06 14:25 INFO     attacker net 9 final test acc 0.582200
+12-06 14:25 INFO     >> Global Model 1 Test accuracy: 0.591900
+12-06 14:25 INFO     >> Global Model 1 Attack Success Rate: 0.107700
+12-06 14:25 INFO     >> Global Model 5 Test accuracy: 0.563000
+12-06 14:25 INFO     >> Global Model 5 Attack Success Rate: 0.132000
+12-06 14:25 INFO     >> Global Model 7 Test accuracy: 0.622300
+12-06 14:25 INFO     >> Global Model 7 Attack Success Rate: 0.058400
+12-06 14:25 INFO     >> Global Model 8 Test accuracy: 0.633400
+12-06 14:25 INFO     >> Global Model 8 Attack Success Rate: 0.058100
+12-06 14:25 INFO     >> Global Model 9 Test accuracy: 0.589200
+12-06 14:26 INFO     >> Global Model 9 Attack Success Rate: 0.970100
+12-06 14:26 INFO     in comm round:75
+12-06 14:26 INFO     normal net 0 final test acc 0.496800
+12-06 14:26 INFO     normal net 3 final test acc 0.677500
+12-06 14:26 INFO     attacker net 6 final test acc 0.482900
+12-06 14:26 INFO     normal net 7 final test acc 0.591900
+12-06 14:27 INFO     normal net 8 final test acc 0.604100
+12-06 14:27 INFO     >> Global Model 0 Test accuracy: 0.491700
+12-06 14:27 INFO     >> Global Model 0 Attack Success Rate: 0.160400
+12-06 14:27 INFO     >> Global Model 3 Test accuracy: 0.664100
+12-06 14:27 INFO     >> Global Model 3 Attack Success Rate: 0.103700
+12-06 14:27 INFO     >> Global Model 6 Test accuracy: 0.488200
+12-06 14:27 INFO     >> Global Model 6 Attack Success Rate: 0.986500
+12-06 14:27 INFO     >> Global Model 7 Test accuracy: 0.644000
+12-06 14:27 INFO     >> Global Model 7 Attack Success Rate: 0.048500
+12-06 14:27 INFO     >> Global Model 8 Test accuracy: 0.651200
+12-06 14:27 INFO     >> Global Model 8 Attack Success Rate: 0.054200
+12-06 14:27 INFO     in comm round:76
+12-06 14:28 INFO     normal net 3 final test acc 0.623100
+12-06 14:28 INFO     normal net 4 final test acc 0.455700
+12-06 14:28 INFO     attacker net 6 final test acc 0.423900
+12-06 14:28 INFO     normal net 8 final test acc 0.608000
+12-06 14:29 INFO     attacker net 9 final test acc 0.547800
+12-06 14:29 INFO     >> Global Model 3 Test accuracy: 0.605300
+12-06 14:29 INFO     >> Global Model 3 Attack Success Rate: 0.081700
+12-06 14:29 INFO     >> Global Model 4 Test accuracy: 0.460600
+12-06 14:29 INFO     >> Global Model 4 Attack Success Rate: 0.293000
+12-06 14:29 INFO     >> Global Model 6 Test accuracy: 0.541500
+12-06 14:29 INFO     >> Global Model 6 Attack Success Rate: 0.983500
+12-06 14:29 INFO     >> Global Model 8 Test accuracy: 0.613800
+12-06 14:29 INFO     >> Global Model 8 Attack Success Rate: 0.062200
+12-06 14:29 INFO     >> Global Model 9 Test accuracy: 0.542300
+12-06 14:29 INFO     >> Global Model 9 Attack Success Rate: 0.988900
+12-06 14:29 INFO     in comm round:77
+12-06 14:29 INFO     normal net 0 final test acc 0.474500
+12-06 14:30 INFO     normal net 2 final test acc 0.649800
+12-06 14:30 INFO     normal net 3 final test acc 0.668300
+12-06 14:30 INFO     attacker net 6 final test acc 0.446900
+12-06 14:30 INFO     attacker net 9 final test acc 0.537000
+12-06 14:31 INFO     >> Global Model 0 Test accuracy: 0.479700
+12-06 14:31 INFO     >> Global Model 0 Attack Success Rate: 0.209800
+12-06 14:31 INFO     >> Global Model 2 Test accuracy: 0.673400
+12-06 14:31 INFO     >> Global Model 2 Attack Success Rate: 0.046600
+12-06 14:31 INFO     >> Global Model 3 Test accuracy: 0.666800
+12-06 14:31 INFO     >> Global Model 3 Attack Success Rate: 0.107200
+12-06 14:31 INFO     >> Global Model 6 Test accuracy: 0.514600
+12-06 14:31 INFO     >> Global Model 6 Attack Success Rate: 0.995700
+12-06 14:31 INFO     >> Global Model 9 Test accuracy: 0.514500
+12-06 14:31 INFO     >> Global Model 9 Attack Success Rate: 0.994900
+12-06 14:31 INFO     in comm round:78
+12-06 14:31 INFO     normal net 1 final test acc 0.495800
+12-06 14:31 INFO     normal net 2 final test acc 0.646500
+12-06 14:32 INFO     normal net 3 final test acc 0.690400
+12-06 14:32 INFO     normal net 4 final test acc 0.462800
+12-06 14:32 INFO     attacker net 9 final test acc 0.535200
+12-06 14:32 INFO     >> Global Model 1 Test accuracy: 0.692700
+12-06 14:32 INFO     >> Global Model 1 Attack Success Rate: 0.090000
+12-06 14:32 INFO     >> Global Model 2 Test accuracy: 0.680200
+12-06 14:32 INFO     >> Global Model 2 Attack Success Rate: 0.158800
+12-06 14:32 INFO     >> Global Model 3 Test accuracy: 0.694300
+12-06 14:32 INFO     >> Global Model 3 Attack Success Rate: 0.126500
+12-06 14:33 INFO     >> Global Model 4 Test accuracy: 0.673300
+12-06 14:33 INFO     >> Global Model 4 Attack Success Rate: 0.191900
+12-06 14:33 INFO     >> Global Model 9 Test accuracy: 0.539600
+12-06 14:33 INFO     >> Global Model 9 Attack Success Rate: 0.989800
+12-06 14:33 INFO     in comm round:79
+12-06 14:33 INFO     normal net 1 final test acc 0.483300
+12-06 14:33 INFO     normal net 5 final test acc 0.552500
+12-06 14:33 INFO     attacker net 6 final test acc 0.416300
+12-06 14:34 INFO     normal net 8 final test acc 0.625100
+12-06 14:34 INFO     attacker net 9 final test acc 0.551700
+12-06 14:34 INFO     >> Global Model 1 Test accuracy: 0.477200
+12-06 14:34 INFO     >> Global Model 1 Attack Success Rate: 0.082600
+12-06 14:34 INFO     >> Global Model 5 Test accuracy: 0.567500
+12-06 14:34 INFO     >> Global Model 5 Attack Success Rate: 0.113600
+12-06 14:34 INFO     >> Global Model 6 Test accuracy: 0.536900
+12-06 14:34 INFO     >> Global Model 6 Attack Success Rate: 0.988300
+12-06 14:34 INFO     >> Global Model 8 Test accuracy: 0.623800
+12-06 14:34 INFO     >> Global Model 8 Attack Success Rate: 0.091900
+12-06 14:34 INFO     >> Global Model 9 Test accuracy: 0.540800
+12-06 14:34 INFO     >> Global Model 9 Attack Success Rate: 0.988600
+12-06 14:34 INFO     in comm round:80
+12-06 14:35 INFO     normal net 0 final test acc 0.499500
+12-06 14:35 INFO     normal net 5 final test acc 0.545700
+12-06 14:35 INFO     attacker net 6 final test acc 0.469200
+12-06 14:35 INFO     normal net 7 final test acc 0.562400
+12-06 14:36 INFO     normal net 8 final test acc 0.608800
+12-06 14:36 INFO     >> Global Model 0 Test accuracy: 0.500300
+12-06 14:36 INFO     >> Global Model 0 Attack Success Rate: 0.210000
+12-06 14:36 INFO     >> Global Model 5 Test accuracy: 0.554000
+12-06 14:36 INFO     >> Global Model 5 Attack Success Rate: 0.114700
+12-06 14:36 INFO     >> Global Model 6 Test accuracy: 0.465400
+12-06 14:36 INFO     >> Global Model 6 Attack Success Rate: 0.969900
+12-06 14:36 INFO     >> Global Model 7 Test accuracy: 0.649400
+12-06 14:36 INFO     >> Global Model 7 Attack Success Rate: 0.065200
+12-06 14:36 INFO     >> Global Model 8 Test accuracy: 0.659500
+12-06 14:36 INFO     >> Global Model 8 Attack Success Rate: 0.070200
+12-06 14:36 INFO     in comm round:81
+12-06 14:36 INFO     normal net 1 final test acc 0.475200
+12-06 14:37 INFO     normal net 2 final test acc 0.594700
+12-06 14:37 INFO     normal net 3 final test acc 0.641700
+12-06 14:37 INFO     normal net 7 final test acc 0.579200
+12-06 14:37 INFO     attacker net 9 final test acc 0.581600
+12-06 14:37 INFO     >> Global Model 1 Test accuracy: 0.658300
+12-06 14:38 INFO     >> Global Model 1 Attack Success Rate: 0.093500
+12-06 14:38 INFO     >> Global Model 2 Test accuracy: 0.662300
+12-06 14:38 INFO     >> Global Model 2 Attack Success Rate: 0.086600
+12-06 14:38 INFO     >> Global Model 3 Test accuracy: 0.642800
+12-06 14:38 INFO     >> Global Model 3 Attack Success Rate: 0.136000
+12-06 14:38 INFO     >> Global Model 7 Test accuracy: 0.582200
+12-06 14:38 INFO     >> Global Model 7 Attack Success Rate: 0.034000
+12-06 14:38 INFO     >> Global Model 9 Test accuracy: 0.597500
+12-06 14:38 INFO     >> Global Model 9 Attack Success Rate: 0.984900
+12-06 14:38 INFO     in comm round:82
+12-06 14:38 INFO     normal net 0 final test acc 0.506000
+12-06 14:38 INFO     normal net 1 final test acc 0.577700
+12-06 14:39 INFO     normal net 3 final test acc 0.691100
+12-06 14:39 INFO     normal net 4 final test acc 0.477800
+12-06 14:39 INFO     attacker net 9 final test acc 0.550200
+12-06 14:39 INFO     >> Global Model 0 Test accuracy: 0.645700
+12-06 14:39 INFO     >> Global Model 0 Attack Success Rate: 0.163100
+12-06 14:39 INFO     >> Global Model 1 Test accuracy: 0.648000
+12-06 14:39 INFO     >> Global Model 1 Attack Success Rate: 0.161600
+12-06 14:39 INFO     >> Global Model 3 Test accuracy: 0.679600
+12-06 14:39 INFO     >> Global Model 3 Attack Success Rate: 0.118000
+12-06 14:39 INFO     >> Global Model 4 Test accuracy: 0.483200
+12-06 14:40 INFO     >> Global Model 4 Attack Success Rate: 0.277200
+12-06 14:40 INFO     >> Global Model 9 Test accuracy: 0.565100
+12-06 14:40 INFO     >> Global Model 9 Attack Success Rate: 0.907600
+12-06 14:40 INFO     in comm round:83
+12-06 14:40 INFO     normal net 1 final test acc 0.595300
+12-06 14:40 INFO     normal net 2 final test acc 0.695200
+12-06 14:40 INFO     normal net 3 final test acc 0.615300
+12-06 14:40 INFO     normal net 7 final test acc 0.585300
+12-06 14:41 INFO     normal net 8 final test acc 0.616000
+12-06 14:41 INFO     >> Global Model 1 Test accuracy: 0.699800
+12-06 14:41 INFO     >> Global Model 1 Attack Success Rate: 0.091300
+12-06 14:41 INFO     >> Global Model 2 Test accuracy: 0.713100
+12-06 14:41 INFO     >> Global Model 2 Attack Success Rate: 0.097600
+12-06 14:41 INFO     >> Global Model 3 Test accuracy: 0.622100
+12-06 14:41 INFO     >> Global Model 3 Attack Success Rate: 0.155600
+12-06 14:41 INFO     >> Global Model 7 Test accuracy: 0.601100
+12-06 14:41 INFO     >> Global Model 7 Attack Success Rate: 0.039200
+12-06 14:41 INFO     >> Global Model 8 Test accuracy: 0.611500
+12-06 14:41 INFO     >> Global Model 8 Attack Success Rate: 0.070900
+12-06 14:41 INFO     in comm round:84
+12-06 14:42 INFO     normal net 1 final test acc 0.633500
+12-06 14:42 INFO     normal net 2 final test acc 0.649700
+12-06 14:42 INFO     normal net 3 final test acc 0.702300
+12-06 14:42 INFO     normal net 4 final test acc 0.469900
+12-06 14:43 INFO     normal net 8 final test acc 0.629400
+12-06 14:43 INFO     >> Global Model 1 Test accuracy: 0.698800
+12-06 14:43 INFO     >> Global Model 1 Attack Success Rate: 0.081400
+12-06 14:43 INFO     >> Global Model 2 Test accuracy: 0.698100
+12-06 14:43 INFO     >> Global Model 2 Attack Success Rate: 0.077700
+12-06 14:43 INFO     >> Global Model 3 Test accuracy: 0.702300
+12-06 14:43 INFO     >> Global Model 3 Attack Success Rate: 0.096800
+12-06 14:43 INFO     >> Global Model 4 Test accuracy: 0.597300
+12-06 14:43 INFO     >> Global Model 4 Attack Success Rate: 0.130900
+12-06 14:43 INFO     >> Global Model 8 Test accuracy: 0.605800
+12-06 14:43 INFO     >> Global Model 8 Attack Success Rate: 0.133900
+12-06 14:43 INFO     in comm round:85
+12-06 14:43 INFO     normal net 2 final test acc 0.625600
+12-06 14:44 INFO     normal net 3 final test acc 0.682400
+12-06 14:44 INFO     normal net 4 final test acc 0.480100
+12-06 14:44 INFO     attacker net 6 final test acc 0.437700
+12-06 14:44 INFO     normal net 8 final test acc 0.605400
+12-06 14:45 INFO     >> Global Model 2 Test accuracy: 0.651800
+12-06 14:45 INFO     >> Global Model 2 Attack Success Rate: 0.055900
+12-06 14:45 INFO     >> Global Model 3 Test accuracy: 0.679900
+12-06 14:45 INFO     >> Global Model 3 Attack Success Rate: 0.118600
+12-06 14:45 INFO     >> Global Model 4 Test accuracy: 0.584900
+12-06 14:45 INFO     >> Global Model 4 Attack Success Rate: 0.135700
+12-06 14:45 INFO     >> Global Model 6 Test accuracy: 0.444700
+12-06 14:45 INFO     >> Global Model 6 Attack Success Rate: 0.999800
+12-06 14:45 INFO     >> Global Model 8 Test accuracy: 0.588600
+12-06 14:45 INFO     >> Global Model 8 Attack Success Rate: 0.137700
+12-06 14:45 INFO     in comm round:86
+12-06 14:45 INFO     normal net 5 final test acc 0.594400
+12-06 14:45 INFO     attacker net 6 final test acc 0.431200
+12-06 14:46 INFO     normal net 7 final test acc 0.561800
+12-06 14:46 INFO     normal net 8 final test acc 0.612500
+12-06 14:46 INFO     attacker net 9 final test acc 0.561200
+12-06 14:46 INFO     >> Global Model 5 Test accuracy: 0.591900
+12-06 14:46 INFO     >> Global Model 5 Attack Success Rate: 0.103500
+12-06 14:46 INFO     >> Global Model 6 Test accuracy: 0.529200
+12-06 14:47 INFO     >> Global Model 6 Attack Success Rate: 0.985600
+12-06 14:47 INFO     >> Global Model 7 Test accuracy: 0.598900
+12-06 14:47 INFO     >> Global Model 7 Attack Success Rate: 0.051100
+12-06 14:47 INFO     >> Global Model 8 Test accuracy: 0.602300
+12-06 14:47 INFO     >> Global Model 8 Attack Success Rate: 0.064800
+12-06 14:47 INFO     >> Global Model 9 Test accuracy: 0.533300
+12-06 14:47 INFO     >> Global Model 9 Attack Success Rate: 0.982500
+12-06 14:47 INFO     in comm round:87
+12-06 14:47 INFO     normal net 0 final test acc 0.502700
+12-06 14:47 INFO     normal net 2 final test acc 0.599000
+12-06 14:48 INFO     normal net 3 final test acc 0.686000
+12-06 14:48 INFO     normal net 8 final test acc 0.620000
+12-06 14:48 INFO     attacker net 9 final test acc 0.574100
+12-06 14:48 INFO     >> Global Model 0 Test accuracy: 0.728800
+12-06 14:48 INFO     >> Global Model 0 Attack Success Rate: 0.130400
+12-06 14:48 INFO     >> Global Model 2 Test accuracy: 0.730400
+12-06 14:48 INFO     >> Global Model 2 Attack Success Rate: 0.134100
+12-06 14:48 INFO     >> Global Model 3 Test accuracy: 0.686300
+12-06 14:48 INFO     >> Global Model 3 Attack Success Rate: 0.094300
+12-06 14:48 INFO     >> Global Model 8 Test accuracy: 0.618400
+12-06 14:49 INFO     >> Global Model 8 Attack Success Rate: 0.069700
+12-06 14:49 INFO     >> Global Model 9 Test accuracy: 0.589800
+12-06 14:49 INFO     >> Global Model 9 Attack Success Rate: 1.000000
+12-06 14:49 INFO     in comm round:88
+12-06 14:49 INFO     normal net 0 final test acc 0.536700
+12-06 14:49 INFO     normal net 1 final test acc 0.570000
+12-06 14:49 INFO     normal net 4 final test acc 0.496800
+12-06 14:50 INFO     normal net 5 final test acc 0.600600
+12-06 14:50 INFO     attacker net 9 final test acc 0.574900
+12-06 14:50 INFO     >> Global Model 0 Test accuracy: 0.682600
+12-06 14:50 INFO     >> Global Model 0 Attack Success Rate: 0.155500
+12-06 14:50 INFO     >> Global Model 1 Test accuracy: 0.647100
+12-06 14:50 INFO     >> Global Model 1 Attack Success Rate: 0.182300
+12-06 14:50 INFO     >> Global Model 4 Test accuracy: 0.596100
+12-06 14:50 INFO     >> Global Model 4 Attack Success Rate: 0.191900
+12-06 14:50 INFO     >> Global Model 5 Test accuracy: 0.594000
+12-06 14:50 INFO     >> Global Model 5 Attack Success Rate: 0.157500
+12-06 14:50 INFO     >> Global Model 9 Test accuracy: 0.581200
+12-06 14:50 INFO     >> Global Model 9 Attack Success Rate: 0.999900
+12-06 14:50 INFO     in comm round:89
+12-06 14:51 INFO     normal net 2 final test acc 0.666100
+12-06 14:51 INFO     normal net 4 final test acc 0.481200
+12-06 14:51 INFO     attacker net 6 final test acc 0.506500
+12-06 14:51 INFO     normal net 8 final test acc 0.609700
+12-06 14:52 INFO     attacker net 9 final test acc 0.599600
+12-06 14:52 INFO     >> Global Model 2 Test accuracy: 0.686200
+12-06 14:52 INFO     >> Global Model 2 Attack Success Rate: 0.061100
+12-06 14:52 INFO     >> Global Model 4 Test accuracy: 0.492700
+12-06 14:52 INFO     >> Global Model 4 Attack Success Rate: 0.237800
+12-06 14:52 INFO     >> Global Model 6 Test accuracy: 0.598200
+12-06 14:52 INFO     >> Global Model 6 Attack Success Rate: 0.982300
+12-06 14:52 INFO     >> Global Model 8 Test accuracy: 0.624100
+12-06 14:52 INFO     >> Global Model 8 Attack Success Rate: 0.094200
+12-06 14:52 INFO     >> Global Model 9 Test accuracy: 0.597500
+12-06 14:52 INFO     >> Global Model 9 Attack Success Rate: 0.979800
+12-06 14:52 INFO     in comm round:90
+12-06 14:52 INFO     normal net 0 final test acc 0.469600
+12-06 14:53 INFO     normal net 1 final test acc 0.566700
+12-06 14:53 INFO     normal net 4 final test acc 0.471400
+12-06 14:53 INFO     normal net 7 final test acc 0.578400
+12-06 14:53 INFO     normal net 8 final test acc 0.652100
+12-06 14:54 INFO     >> Global Model 0 Test accuracy: 0.685800
+12-06 14:54 INFO     >> Global Model 0 Attack Success Rate: 0.166300
+12-06 14:54 INFO     >> Global Model 1 Test accuracy: 0.698200
+12-06 14:54 INFO     >> Global Model 1 Attack Success Rate: 0.159800
+12-06 14:54 INFO     >> Global Model 4 Test accuracy: 0.612900
+12-06 14:54 INFO     >> Global Model 4 Attack Success Rate: 0.155800
+12-06 14:54 INFO     >> Global Model 7 Test accuracy: 0.591600
+12-06 14:54 INFO     >> Global Model 7 Attack Success Rate: 0.032700
+12-06 14:54 INFO     >> Global Model 8 Test accuracy: 0.611700
+12-06 14:54 INFO     >> Global Model 8 Attack Success Rate: 0.164000
+12-06 14:54 INFO     in comm round:91
+12-06 14:54 INFO     normal net 0 final test acc 0.494700
+12-06 14:54 INFO     normal net 1 final test acc 0.535200
+12-06 14:55 INFO     normal net 2 final test acc 0.609100
+12-06 14:55 INFO     normal net 3 final test acc 0.669800
+12-06 14:55 INFO     normal net 7 final test acc 0.559900
+12-06 14:55 INFO     >> Global Model 0 Test accuracy: 0.738500
+12-06 14:55 INFO     >> Global Model 0 Attack Success Rate: 0.113400
+12-06 14:55 INFO     >> Global Model 1 Test accuracy: 0.553800
+12-06 14:55 INFO     >> Global Model 1 Attack Success Rate: 0.105300
+12-06 14:55 INFO     >> Global Model 2 Test accuracy: 0.738200
+12-06 14:55 INFO     >> Global Model 2 Attack Success Rate: 0.114400
+12-06 14:56 INFO     >> Global Model 3 Test accuracy: 0.660300
+12-06 14:56 INFO     >> Global Model 3 Attack Success Rate: 0.121700
+12-06 14:56 INFO     >> Global Model 7 Test accuracy: 0.576200
+12-06 14:56 INFO     >> Global Model 7 Attack Success Rate: 0.055900
+12-06 14:56 INFO     in comm round:92
+12-06 14:56 INFO     normal net 0 final test acc 0.525400
+12-06 14:56 INFO     normal net 1 final test acc 0.562200
+12-06 14:56 INFO     normal net 5 final test acc 0.566200
+12-06 14:57 INFO     attacker net 6 final test acc 0.487100
+12-06 14:57 INFO     normal net 7 final test acc 0.604000
+12-06 14:57 INFO     >> Global Model 0 Test accuracy: 0.679500
+12-06 14:57 INFO     >> Global Model 0 Attack Success Rate: 0.145700
+12-06 14:57 INFO     >> Global Model 1 Test accuracy: 0.679900
+12-06 14:57 INFO     >> Global Model 1 Attack Success Rate: 0.143200
+12-06 14:57 INFO     >> Global Model 5 Test accuracy: 0.568400
+12-06 14:57 INFO     >> Global Model 5 Attack Success Rate: 0.099500
+12-06 14:57 INFO     >> Global Model 6 Test accuracy: 0.483800
+12-06 14:57 INFO     >> Global Model 6 Attack Success Rate: 0.992900
+12-06 14:57 INFO     >> Global Model 7 Test accuracy: 0.629900
+12-06 14:57 INFO     >> Global Model 7 Attack Success Rate: 0.040400
+12-06 14:57 INFO     in comm round:93
+12-06 14:58 INFO     normal net 2 final test acc 0.691600
+12-06 14:58 INFO     normal net 3 final test acc 0.671600
+12-06 14:58 INFO     normal net 4 final test acc 0.496400
+12-06 14:58 INFO     normal net 5 final test acc 0.579200
+12-06 14:58 INFO     normal net 7 final test acc 0.570500
+12-06 14:59 INFO     >> Global Model 2 Test accuracy: 0.723800
+12-06 14:59 INFO     >> Global Model 2 Attack Success Rate: 0.112900
+12-06 14:59 INFO     >> Global Model 3 Test accuracy: 0.678200
+12-06 14:59 INFO     >> Global Model 3 Attack Success Rate: 0.115400
+12-06 14:59 INFO     >> Global Model 4 Test accuracy: 0.494900
+12-06 14:59 INFO     >> Global Model 4 Attack Success Rate: 0.274800
+12-06 14:59 INFO     >> Global Model 5 Test accuracy: 0.722000
+12-06 14:59 INFO     >> Global Model 5 Attack Success Rate: 0.117500
+12-06 14:59 INFO     >> Global Model 7 Test accuracy: 0.581900
+12-06 14:59 INFO     >> Global Model 7 Attack Success Rate: 0.040700
+12-06 14:59 INFO     in comm round:94
+12-06 14:59 INFO     normal net 0 final test acc 0.506200
+12-06 14:59 INFO     normal net 4 final test acc 0.480000
+12-06 15:00 INFO     normal net 7 final test acc 0.563600
+12-06 15:00 INFO     normal net 8 final test acc 0.635500
+12-06 15:00 INFO     attacker net 9 final test acc 0.605800
+12-06 15:00 INFO     >> Global Model 0 Test accuracy: 0.513400
+12-06 15:00 INFO     >> Global Model 0 Attack Success Rate: 0.166600
+12-06 15:00 INFO     >> Global Model 4 Test accuracy: 0.689600
+12-06 15:01 INFO     >> Global Model 4 Attack Success Rate: 0.108400
+12-06 15:01 INFO     >> Global Model 7 Test accuracy: 0.661900
+12-06 15:01 INFO     >> Global Model 7 Attack Success Rate: 0.127200
+12-06 15:01 INFO     >> Global Model 8 Test accuracy: 0.646000
+12-06 15:01 INFO     >> Global Model 8 Attack Success Rate: 0.129800
+12-06 15:01 INFO     >> Global Model 9 Test accuracy: 0.612000
+12-06 15:01 INFO     >> Global Model 9 Attack Success Rate: 0.993700
+12-06 15:01 INFO     in comm round:95
+12-06 15:01 INFO     normal net 1 final test acc 0.573100
+12-06 15:01 INFO     attacker net 6 final test acc 0.446100
+12-06 15:01 INFO     normal net 7 final test acc 0.587500
+12-06 15:02 INFO     normal net 8 final test acc 0.628300
+12-06 15:02 INFO     attacker net 9 final test acc 0.556500
+12-06 15:02 INFO     >> Global Model 1 Test accuracy: 0.558000
+12-06 15:02 INFO     >> Global Model 1 Attack Success Rate: 0.107200
+12-06 15:02 INFO     >> Global Model 6 Test accuracy: 0.549500
+12-06 15:02 INFO     >> Global Model 6 Attack Success Rate: 0.992400
+12-06 15:02 INFO     >> Global Model 7 Test accuracy: 0.611200
+12-06 15:02 INFO     >> Global Model 7 Attack Success Rate: 0.025500
+12-06 15:02 INFO     >> Global Model 8 Test accuracy: 0.624100
+12-06 15:03 INFO     >> Global Model 8 Attack Success Rate: 0.068600
+12-06 15:03 INFO     >> Global Model 9 Test accuracy: 0.549600
+12-06 15:03 INFO     >> Global Model 9 Attack Success Rate: 0.992900
+12-06 15:03 INFO     in comm round:96
+12-06 15:03 INFO     normal net 3 final test acc 0.654200
+12-06 15:03 INFO     normal net 4 final test acc 0.456000
+12-06 15:03 INFO     attacker net 6 final test acc 0.442500
+12-06 15:04 INFO     normal net 7 final test acc 0.570800
+12-06 15:04 INFO     normal net 8 final test acc 0.669600
+12-06 15:04 INFO     >> Global Model 3 Test accuracy: 0.660500
+12-06 15:04 INFO     >> Global Model 3 Attack Success Rate: 0.113900
+12-06 15:04 INFO     >> Global Model 4 Test accuracy: 0.463000
+12-06 15:04 INFO     >> Global Model 4 Attack Success Rate: 0.249400
+12-06 15:04 INFO     >> Global Model 6 Test accuracy: 0.436200
+12-06 15:04 INFO     >> Global Model 6 Attack Success Rate: 0.985500
+12-06 15:04 INFO     >> Global Model 7 Test accuracy: 0.701300
+12-06 15:04 INFO     >> Global Model 7 Attack Success Rate: 0.089100
+12-06 15:04 INFO     >> Global Model 8 Test accuracy: 0.703700
+12-06 15:04 INFO     >> Global Model 8 Attack Success Rate: 0.085800
+12-06 15:04 INFO     in comm round:97
+12-06 15:05 INFO     normal net 0 final test acc 0.531900
+12-06 15:05 INFO     normal net 3 final test acc 0.697900
+12-06 15:05 INFO     normal net 5 final test acc 0.602000
+12-06 15:05 INFO     attacker net 6 final test acc 0.483900
+12-06 15:06 INFO     normal net 7 final test acc 0.598400
+12-06 15:06 INFO     >> Global Model 0 Test accuracy: 0.643000
+12-06 15:06 INFO     >> Global Model 0 Attack Success Rate: 0.152200
+12-06 15:06 INFO     >> Global Model 3 Test accuracy: 0.690000
+12-06 15:06 INFO     >> Global Model 3 Attack Success Rate: 0.118600
+12-06 15:06 INFO     >> Global Model 5 Test accuracy: 0.641100
+12-06 15:06 INFO     >> Global Model 5 Attack Success Rate: 0.152300
+12-06 15:06 INFO     >> Global Model 6 Test accuracy: 0.495400
+12-06 15:06 INFO     >> Global Model 6 Attack Success Rate: 0.989400
+12-06 15:06 INFO     >> Global Model 7 Test accuracy: 0.600600
+12-06 15:06 INFO     >> Global Model 7 Attack Success Rate: 0.054300
+12-06 15:06 INFO     in comm round:98
+12-06 15:06 INFO     normal net 0 final test acc 0.557300
+12-06 15:07 INFO     normal net 2 final test acc 0.685800
+12-06 15:07 INFO     normal net 4 final test acc 0.470700
+12-06 15:07 INFO     normal net 8 final test acc 0.568800
+12-06 15:07 INFO     attacker net 9 final test acc 0.612200
+12-06 15:08 INFO     >> Global Model 0 Test accuracy: 0.563600
+12-06 15:08 INFO     >> Global Model 0 Attack Success Rate: 0.191600
+12-06 15:08 INFO     >> Global Model 2 Test accuracy: 0.708100
+12-06 15:08 INFO     >> Global Model 2 Attack Success Rate: 0.063200
+12-06 15:08 INFO     >> Global Model 4 Test accuracy: 0.564400
+12-06 15:08 INFO     >> Global Model 4 Attack Success Rate: 0.179700
+12-06 15:08 INFO     >> Global Model 8 Test accuracy: 0.570400
+12-06 15:08 INFO     >> Global Model 8 Attack Success Rate: 0.186600
+12-06 15:08 INFO     >> Global Model 9 Test accuracy: 0.602800
+12-06 15:08 INFO     >> Global Model 9 Attack Success Rate: 0.993400
+12-06 15:08 INFO     in comm round:99
+12-06 15:08 INFO     normal net 3 final test acc 0.664600
+12-06 15:08 INFO     normal net 4 final test acc 0.492000
+12-06 15:09 INFO     attacker net 6 final test acc 0.466900
+12-06 15:09 INFO     normal net 7 final test acc 0.582100
+12-06 15:09 INFO     normal net 8 final test acc 0.628600
+12-06 15:09 INFO     >> Global Model 3 Test accuracy: 0.659400
+12-06 15:09 INFO     >> Global Model 3 Attack Success Rate: 0.118000
+12-06 15:09 INFO     >> Global Model 4 Test accuracy: 0.652800
+12-06 15:10 INFO     >> Global Model 4 Attack Success Rate: 0.118300
+12-06 15:10 INFO     >> Global Model 6 Test accuracy: 0.465700
+12-06 15:10 INFO     >> Global Model 6 Attack Success Rate: 0.974200
+12-06 15:10 INFO     >> Global Model 7 Test accuracy: 0.648600
+12-06 15:10 INFO     >> Global Model 7 Attack Success Rate: 0.119700
+12-06 15:10 INFO     >> Global Model 8 Test accuracy: 0.628200
+12-06 15:10 INFO     >> Global Model 8 Attack Success Rate: 0.069400

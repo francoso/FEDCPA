@@ -1,0 +1,179 @@
+08-04 20:48 INFO     cuda:0
+08-04 20:48 INFO     ####################################################################################################
+08-04 20:48 INFO     Partitioning data
+08-04 20:48 INFO     Data statistics: {0: {0: 530, 1: 489, 2: 27, 3: 69, 4: 104, 5: 75, 6: 217, 7: 22, 8: 1204}, 1: {0: 9, 1: 54, 2: 19, 3: 13, 4: 126, 5: 1202, 6: 302, 7: 1, 8: 417, 9: 688}, 2: {0: 5, 1: 1, 2: 235, 3: 55, 5: 573, 6: 811, 7: 1132}, 3: {0: 220, 1: 166, 2: 68, 3: 34, 4: 19, 5: 824, 6: 35, 7: 602, 9: 235}, 4: {0: 281, 1: 132, 2: 55, 3: 45, 4: 146, 5: 178, 6: 48, 7: 230, 8: 440, 9: 2209}, 5: {0: 702, 1: 349, 2: 345, 3: 255, 4: 541, 5: 27, 6: 739}, 6: {0: 6, 1: 125, 2: 1096, 3: 10, 4: 47, 5: 24, 6: 10, 7: 148, 8: 20, 9: 68}, 7: {0: 401, 1: 9, 2: 51, 3: 382, 4: 376, 5: 254, 6: 115, 7: 2, 8: 739, 9: 478}, 8: {0: 628, 1: 391, 2: 19, 3: 14, 4: 970, 5: 35, 6: 443}, 9: {0: 1, 1: 82, 2: 38, 3: 28, 4: 1040, 5: 220, 6: 997, 7: 31, 8: 93}, 10: {0: 647, 1: 839, 2: 259, 3: 278, 4: 36, 5: 275, 6: 20, 7: 192}, 11: {0: 287, 1: 822, 2: 807, 3: 41, 4: 24, 5: 182, 6: 88, 7: 27, 8: 85, 9: 30}, 12: {0: 257, 1: 337, 2: 209, 4: 167, 6: 40, 7: 1704}, 13: {0: 274, 1: 30, 2: 43, 3: 1144, 4: 642, 5: 169, 6: 198}, 14: {0: 501, 1: 50, 2: 165, 3: 204, 5: 7, 7: 168, 8: 186, 9: 802}, 15: {0: 151, 1: 224, 2: 203, 3: 1090, 4: 85, 5: 8, 6: 150, 7: 14, 8: 684}, 16: {0: 30, 1: 353, 2: 320, 3: 281, 4: 160, 5: 48, 6: 71, 7: 12, 8: 217, 9: 74}, 17: {0: 2, 1: 453, 2: 696, 3: 277, 4: 17, 5: 887, 6: 692}, 18: {0: 33, 1: 93, 2: 179, 3: 365, 4: 444, 6: 21, 7: 672, 8: 201, 9: 15}, 19: {0: 35, 1: 1, 2: 166, 3: 415, 4: 56, 5: 12, 6: 3, 7: 43, 8: 714, 9: 401}}
+08-04 20:48 INFO     >> Attacker Network IDX: 6 8 9 17
+08-04 20:48 INFO     Initializing nets
+08-04 20:48 INFO     in comm round:0
+08-04 20:48 INFO     normal net 1 final test acc 0.145100
+08-04 20:49 INFO     normal net 4 final test acc 0.185500
+08-04 20:49 INFO     normal net 5 final test acc 0.227200
+08-04 20:49 INFO     attacker net 6 final test acc 0.084100
+08-04 20:49 INFO     normal net 7 final test acc 0.234300
+08-04 20:49 INFO     attacker net 8 final test acc 0.112900
+08-04 20:50 INFO     normal net 12 final test acc 0.184600
+08-04 20:50 INFO     normal net 13 final test acc 0.199600
+08-04 20:50 INFO     normal net 15 final test acc 0.148200
+08-04 20:50 INFO     normal net 19 final test acc 0.149200
+08-04 20:50 INFO     >> Removed Network IDX: 4 6
+08-04 20:50 INFO     >> Global Model Test accuracy: 0.102300
+08-04 20:50 INFO     >> Global Model Attack Success Rate: 0.000000
+08-04 20:50 INFO     in comm round:1
+08-04 20:51 INFO     normal net 1 final test acc 0.191500
+08-04 20:51 INFO     normal net 2 final test acc 0.168000
+08-04 20:51 INFO     normal net 4 final test acc 0.204200
+08-04 20:51 INFO     attacker net 6 final test acc 0.100000
+08-04 20:51 INFO     attacker net 9 final test acc 0.100000
+08-04 20:52 INFO     normal net 12 final test acc 0.181000
+08-04 20:52 INFO     normal net 15 final test acc 0.212700
+08-04 20:52 INFO     normal net 16 final test acc 0.204100
+08-04 20:52 INFO     attacker net 17 final test acc 0.100000
+08-04 20:52 INFO     normal net 18 final test acc 0.207800
+08-04 20:52 INFO     >> Removed Network IDX: 4 12
+08-04 20:52 INFO     >> Global Model Test accuracy: 0.135800
+08-04 20:52 INFO     >> Global Model Attack Success Rate: 0.232800
+08-04 20:52 INFO     in comm round:2
+08-04 20:53 INFO     normal net 2 final test acc 0.186600
+08-04 20:53 INFO     normal net 3 final test acc 0.211900
+08-04 20:53 INFO     normal net 4 final test acc 0.237400
+08-04 20:53 INFO     normal net 5 final test acc 0.209900
+08-04 20:53 INFO     normal net 7 final test acc 0.284900
+08-04 20:54 INFO     attacker net 9 final test acc 0.100000
+08-04 20:54 INFO     normal net 10 final test acc 0.279600
+08-04 20:54 INFO     normal net 13 final test acc 0.178600
+08-04 20:54 INFO     normal net 14 final test acc 0.205400
+08-04 20:54 INFO     attacker net 17 final test acc 0.100000
+08-04 20:54 INFO     >> Removed Network IDX: 17 4
+08-04 20:54 INFO     >> Global Model Test accuracy: 0.187700
+08-04 20:54 INFO     >> Global Model Attack Success Rate: 0.000100
+08-04 20:54 INFO     in comm round:3
+08-04 20:55 INFO     normal net 3 final test acc 0.254300
+08-04 20:55 INFO     normal net 7 final test acc 0.280200
+08-04 20:55 INFO     attacker net 8 final test acc 0.100000
+08-04 20:55 INFO     attacker net 9 final test acc 0.094400
+08-04 20:55 INFO     normal net 10 final test acc 0.284300
+08-04 20:56 INFO     normal net 11 final test acc 0.233300
+08-04 20:56 INFO     normal net 13 final test acc 0.200100
+08-04 20:56 INFO     normal net 15 final test acc 0.249000
+08-04 20:56 INFO     attacker net 17 final test acc 0.100000
+08-04 20:56 INFO     normal net 18 final test acc 0.251900
+08-04 20:56 INFO     >> Removed Network IDX: 9 17
+08-04 20:56 INFO     >> Global Model Test accuracy: 0.234500
+08-04 20:56 INFO     >> Global Model Attack Success Rate: 0.162200
+08-04 20:56 INFO     in comm round:4
+08-04 20:57 INFO     normal net 0 final test acc 0.266200
+08-04 20:57 INFO     normal net 1 final test acc 0.250300
+08-04 20:57 INFO     attacker net 6 final test acc 0.100000
+08-04 20:57 INFO     attacker net 8 final test acc 0.100000
+08-04 20:57 INFO     normal net 10 final test acc 0.266300
+08-04 20:57 INFO     normal net 11 final test acc 0.228400
+08-04 20:58 INFO     normal net 13 final test acc 0.210900
+08-04 20:58 INFO     normal net 14 final test acc 0.243000
+08-04 20:58 INFO     normal net 16 final test acc 0.251000
+08-04 20:58 INFO     normal net 18 final test acc 0.239100
+08-04 20:58 INFO     >> Removed Network IDX: 16 6
+08-04 20:58 INFO     >> Global Model Test accuracy: 0.282800
+08-04 20:58 INFO     >> Global Model Attack Success Rate: 0.189300
+08-04 20:58 INFO     in comm round:5
+08-04 20:58 INFO     normal net 0 final test acc 0.295800
+08-04 20:59 INFO     normal net 1 final test acc 0.239700
+08-04 20:59 INFO     normal net 3 final test acc 0.264800
+08-04 20:59 INFO     normal net 7 final test acc 0.317300
+08-04 20:59 INFO     attacker net 9 final test acc 0.100000
+08-04 20:59 INFO     normal net 10 final test acc 0.258800
+08-04 20:59 INFO     normal net 11 final test acc 0.214900
+08-04 21:00 INFO     normal net 13 final test acc 0.162700
+08-04 21:00 INFO     normal net 15 final test acc 0.203700
+08-04 21:00 INFO     attacker net 17 final test acc 0.100000
+08-04 21:00 INFO     >> Removed Network IDX: 9 17
+08-04 21:00 INFO     >> Global Model Test accuracy: 0.308800
+08-04 21:00 INFO     >> Global Model Attack Success Rate: 0.141700
+08-04 21:00 INFO     in comm round:6
+08-04 21:00 INFO     normal net 1 final test acc 0.293700
+08-04 21:01 INFO     normal net 2 final test acc 0.218600
+08-04 21:01 INFO     normal net 4 final test acc 0.249900
+08-04 21:01 INFO     normal net 5 final test acc 0.263400
+08-04 21:01 INFO     normal net 7 final test acc 0.305400
+08-04 21:01 INFO     attacker net 8 final test acc 0.127900
+08-04 21:01 INFO     normal net 14 final test acc 0.266400
+08-04 21:02 INFO     normal net 16 final test acc 0.260900
+08-04 21:02 INFO     normal net 18 final test acc 0.260200
+08-04 21:02 INFO     normal net 19 final test acc 0.231500
+08-04 21:02 INFO     >> Removed Network IDX: 8 4
+08-04 21:02 INFO     >> Global Model Test accuracy: 0.253600
+08-04 21:02 INFO     >> Global Model Attack Success Rate: 0.000000
+08-04 21:02 INFO     in comm round:7
+08-04 21:02 INFO     normal net 3 final test acc 0.271600
+08-04 21:02 INFO     attacker net 8 final test acc 0.100000
+08-04 21:03 INFO     attacker net 9 final test acc 0.100000
+08-04 21:03 INFO     normal net 10 final test acc 0.272400
+08-04 21:03 INFO     normal net 13 final test acc 0.200600
+08-04 21:03 INFO     normal net 14 final test acc 0.254300
+08-04 21:03 INFO     normal net 16 final test acc 0.238600
+08-04 21:03 INFO     attacker net 17 final test acc 0.100000
+08-04 21:04 INFO     normal net 18 final test acc 0.300800
+08-04 21:04 INFO     normal net 19 final test acc 0.238300
+08-04 21:04 INFO     >> Removed Network IDX: 9 17
+08-04 21:04 INFO     >> Global Model Test accuracy: 0.285900
+08-04 21:04 INFO     >> Global Model Attack Success Rate: 0.166500
+08-04 21:04 INFO     in comm round:8
+08-04 21:04 INFO     normal net 2 final test acc 0.200800
+08-04 21:04 INFO     normal net 3 final test acc 0.246900
+08-04 21:04 INFO     normal net 4 final test acc 0.285700
+08-04 21:05 INFO     normal net 5 final test acc 0.272500
+08-04 21:05 INFO     attacker net 9 final test acc 0.100000
+08-04 21:05 INFO     normal net 12 final test acc 0.257000
+08-04 21:05 INFO     normal net 14 final test acc 0.301900
+08-04 21:05 INFO     normal net 16 final test acc 0.283900
+08-04 21:05 INFO     normal net 18 final test acc 0.249600
+08-04 21:06 INFO     normal net 19 final test acc 0.189800
+08-04 21:06 INFO     >> Removed Network IDX: 4 5
+08-04 21:06 INFO     >> Global Model Test accuracy: 0.244600
+08-04 21:06 INFO     >> Global Model Attack Success Rate: 0.002100
+08-04 21:06 INFO     in comm round:9
+08-04 21:06 INFO     normal net 1 final test acc 0.271400
+08-04 21:06 INFO     normal net 2 final test acc 0.204800
+08-04 21:06 INFO     normal net 5 final test acc 0.282100
+08-04 21:06 INFO     attacker net 6 final test acc 0.106800
+08-04 21:07 INFO     attacker net 8 final test acc 0.100000
+08-04 21:07 INFO     normal net 10 final test acc 0.277900
+08-04 21:07 INFO     normal net 11 final test acc 0.239800
+08-04 21:07 INFO     normal net 14 final test acc 0.256400
+08-04 21:07 INFO     normal net 15 final test acc 0.224400
+08-04 21:08 INFO     attacker net 17 final test acc 0.100000
+08-04 21:08 INFO     >> Removed Network IDX: 8 6
+08-04 21:08 INFO     >> Global Model Test accuracy: 0.328700
+08-04 21:08 INFO     >> Global Model Attack Success Rate: 0.244600
+08-04 21:08 INFO     in comm round:10
+08-04 21:08 INFO     normal net 1 final test acc 0.297100
+08-04 21:08 INFO     normal net 2 final test acc 0.225100
+08-04 21:08 INFO     normal net 3 final test acc 0.302100
+08-04 21:09 INFO     attacker net 8 final test acc 0.100000
+08-04 21:09 INFO     normal net 10 final test acc 0.306700
+08-04 21:09 INFO     normal net 12 final test acc 0.248000
+08-04 21:09 INFO     normal net 13 final test acc 0.222200
+08-04 21:09 INFO     normal net 15 final test acc 0.257900
+08-04 21:09 INFO     normal net 16 final test acc 0.271700
+08-04 21:10 INFO     attacker net 17 final test acc 0.100400
+08-04 21:10 INFO     >> Removed Network IDX: 16 12
+08-04 21:10 INFO     >> Global Model Test accuracy: 0.307500
+08-04 21:10 INFO     >> Global Model Attack Success Rate: 0.130200
+08-04 21:10 INFO     in comm round:11
+08-04 21:10 INFO     normal net 1 final test acc 0.313500
+08-04 21:10 INFO     normal net 5 final test acc 0.313200
+08-04 21:10 INFO     attacker net 8 final test acc 0.100800
+08-04 21:11 INFO     normal net 10 final test acc 0.297900
+08-04 21:11 INFO     normal net 11 final test acc 0.254100
+08-04 21:11 INFO     normal net 13 final test acc 0.240100
+08-04 21:11 INFO     normal net 14 final test acc 0.266300
+08-04 21:11 INFO     normal net 15 final test acc 0.270900
+08-04 21:11 INFO     normal net 16 final test acc 0.294600
+08-04 21:12 INFO     normal net 18 final test acc 0.278000
+08-04 21:12 INFO     >> Removed Network IDX: 8 16
+08-04 21:12 INFO     >> Global Model Test accuracy: 0.303900
+08-04 21:12 INFO     >> Global Model Attack Success Rate: 0.185900
+08-04 21:12 INFO     in comm round:12
+08-04 21:12 INFO     normal net 0 final test acc 0.304000
+08-04 21:12 INFO     normal net 1 final test acc 0.268200
+08-04 21:12 INFO     normal net 3 final test acc 0.278700
+08-04 21:13 INFO     normal net 4 final test acc 0.328900
